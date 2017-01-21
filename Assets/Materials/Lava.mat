@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Lava
-  m_Shader: {fileID: 4800000, guid: 036402a4b0d5f4342bbf1b572714f64e, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
@@ -40,29 +40,17 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
-        name: _Distort
-      second:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
         name: _EmissionMap
       second:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
-        name: _LavaTex
-      second:
-        m_Texture: {fileID: 2800000, guid: 93a726948508cc14eab67fb1abe2daa8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 8.214314, y: 0}
-    - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: 7e0c8098245e7384c88e1f7d3e3d5614, type: 3}
+        m_Texture: {fileID: 2800000, guid: 15fd76e3824115248a7fda22b6c4a701, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: -1.28, y: 0}
+        m_Offset: {x: 0, y: 0}
     - first:
         name: _MetallicGlossMap
       second:
@@ -91,12 +79,6 @@ Material:
     - first:
         name: _DetailNormalMapScale
       second: 1
-    - first:
-        name: _DistortX
-      second: 0.73
-    - first:
-        name: _DistortY
-      second: 0
     - first:
         name: _DstBlend
       second: 0
