@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Flow_River_Mobile
+  m_Shader: {fileID: 4800000, guid: 88d0ee27b1ef8b049a34f01dd25401b9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BaseBumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: a3f8967b1eb2d8044889fdfa91b37877, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _BaseTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 054996efef2ce6945b56cc864c4eecec, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 8900000, guid: 00ad047ebe20d6549a2fa4af0269a96d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FlowBump
+      second:
+        m_Texture: {fileID: 2800000, guid: f109e8e23efe2124c8d0d0f2a9d2c7e1, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FlowMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 181e2e770a219404f8ddf4143a41fbd7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FlowTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 268f4f1a94beef84d9bc2b1bf91f43e1, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 88dfce681cf3e0140b9c6724a16b7391, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: -0.03, y: 0}
+    - first:
+        name: _Noise
+      second:
+        m_Texture: {fileID: 2800000, guid: d489725f5a8477646b9cdeb513367cf0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _DistorScale
+      second: 0
+    - first:
+        name: _Emission
+      second: 0
+    - first:
+        name: _FlowShininess
+      second: 1.8469231
+    - first:
+        name: _Parallax
+      second: 0.2
+    - first:
+        name: _RevealPow
+      second: 64
+    - first:
+        name: _RevealSize
+      second: 1
+    - first:
+        name: _Shininess
+      second: 10.000001
+    - first:
+        name: _Strength
+      second: 0.25000003
+    m_Colors:
+    - first:
+        name: _BaseColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _FlowColor
+      second: {r: 0.5597015, g: 0.8253254, b: 1, a: 0.6}
+    - first:
+        name: _FlowSpecularColor
+      second: {r: 1, g: 0.03731346, b: 0.03731346, a: 0}
+    - first:
+        name: _MainColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ReflColor
+      second: {r: 0, g: 0.07692313, b: 1, a: 0.54901963}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 0.98998016, b: 0.95522386, a: 1}

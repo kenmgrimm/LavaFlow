@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Flow_River_Pro
+  m_Shader: {fileID: 4800000, guid: dd3743945633e92428da1e4a247253eb, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _FlowBump
+      second:
+        m_Texture: {fileID: 2800000, guid: f109e8e23efe2124c8d0d0f2a9d2c7e1, type: 3}
+        m_Scale: {x: 15, y: 25}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FlowMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 181e2e770a219404f8ddf4143a41fbd7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FlowTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 268f4f1a94beef84d9bc2b1bf91f43e1, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Noise
+      second:
+        m_Texture: {fileID: 2800000, guid: 95d61287b0dd76e4e9996bbd0da69bfd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _DistorScale
+      second: 0.0075
+    - first:
+        name: _Emission
+      second: 0
+    - first:
+        name: _RevealPow
+      second: 71.82692
+    - first:
+        name: _RevealSize
+      second: 0.4971976
+    - first:
+        name: _Shininess
+      second: 6
+    - first:
+        name: _Strength
+      second: 0
+    m_Colors:
+    - first:
+        name: _FlowColor
+      second: {r: 0.16078432, g: 0.3764706, b: 0.5254902, a: 0.29411766}
+    - first:
+        name: _SpecColor
+      second: {r: 0.99215686, g: 0.8039216, b: 0.5137255, a: 1}
