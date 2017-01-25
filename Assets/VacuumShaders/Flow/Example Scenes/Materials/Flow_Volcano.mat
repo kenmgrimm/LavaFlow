@@ -54,7 +54,7 @@ Material:
     - first:
         name: _FlowMap
       second:
-        m_Texture: {fileID: 2800000, guid: 21e2bfeb8aeb8dc4fa0ee2340bd651ee, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7c99892a6a502466799beddb04ed4728, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
