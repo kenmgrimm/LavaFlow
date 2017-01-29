@@ -24,13 +24,13 @@ Material:
     - first:
         name: _FlowMap
       second:
-        m_Texture: {fileID: 2800000, guid: 96fe563f6f3d1a645a59686adcb20446, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1c5886f17be894c8abd1be2acac2c1bc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _FlowTexture
       second:
-        m_Texture: {fileID: 2800000, guid: 24d2361f12954714d89bc5a3c7b35df1, type: 3}
+        m_Texture: {fileID: 2800000, guid: f49013479ab7c4effa079095d0b28e67, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -51,29 +51,29 @@ Material:
       second: 0.1
     - first:
         name: _Emission
-      second: 1.0769231
+      second: 1.79
     - first:
         name: _Parallax
-      second: 0.2
+      second: -0.2
     - first:
         name: _RevealPow
-      second: 4.3217545
+      second: 1
     - first:
         name: _RevealSize
-      second: 0.016213434
+      second: 0.13
     - first:
         name: _Shininess
-      second: 1.8115188
+      second: 0
     - first:
         name: _Strength
-      second: 0.1923077
+      second: 0.29
     m_Colors:
     - first:
         name: _BaseColor
-      second: {r: 0.18431373, g: 0.3882353, b: 0.20784314, a: 1}
+      second: {r: 1, g: 1, b: 1, a: 1}
     - first:
         name: _FlowColor
-      second: {r: 0, g: 0.5764706, b: 0.99607843, a: 0.63529414}
+      second: {r: 1, g: 0.2689655, b: 0, a: 1}
     - first:
         name: _SpecColor
-      second: {r: 0.99607843, g: 0.9647059, b: 0.92941177, a: 0.7294118}
+      second: {r: 0, g: 0, b: 0, a: 1}
