@@ -1,3 +1,6 @@
+// Upgrade NOTE: commented out 'float4 unity_LightmapST', a built-in variable
+// Upgrade NOTE: commented out 'sampler2D unity_Lightmap', a built-in variable
+
 // - no Specular Color 
 // - specular lighting directions are approximated per vertex
 // - Normalmap uses Tiling/Offset of the Base texture
@@ -38,8 +41,8 @@ Properties {
 				float4 _FlowTexture_ST;
 				float4 _FlowMap_ST;
 
-				float4 unity_LightmapST;
-				sampler2D unity_Lightmap;
+				// float4 unity_LightmapST;
+				// sampler2D unity_Lightmap;
 			
 				v2f vert(appdata_full v) {
 					v2f o;

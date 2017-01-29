@@ -1,0 +1,4529 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.46169478, g: 0.512416, b: 0.5899326, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 7
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 4
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 0
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_DirectLightInLightProbes: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+  m_LightingDataAsset: {fileID: 0}
+  m_RuntimeCPUUsage: 25
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &243828538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 243828543}
+  - component: {fileID: 243828542}
+  - component: {fileID: 243828540}
+  - component: {fileID: 243828541}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &243828540
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 243828538}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6c4c71d1c9fb04a169bcc62173394989, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!114 &243828541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 243828538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710d1a1a2d92b42478e8491f850e1d08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _colors:
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.49079347, g: 0.5021897, b: 1, a: 1}
+  - {r: 0.4527372, g: 0.50782704, b: 1, a: 1}
+  - {r: 0.38838664, g: 0.51073307, b: 1, a: 1}
+  - {r: 0.36802235, g: 0.5027256, b: 1, a: 1}
+  - {r: 0.4401257, g: 0.49675024, b: 1, a: 1}
+  - {r: 0.4807077, g: 0.4986337, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.49924237, g: 0.50169134, b: 1, a: 1}
+  - {r: 0.430766, g: 0.56891817, b: 1, a: 1}
+  - {r: 0.26142138, g: 0.58532876, b: 1, a: 1}
+  - {r: 0.17185391, g: 0.5445024, b: 1, a: 1}
+  - {r: 0.10782551, g: 0.52028406, b: 1, a: 1}
+  - {r: 0.05353887, g: 0.4879727, b: 1, a: 1}
+  - {r: 0.14153124, g: 0.44680122, b: 1, a: 1}
+  - {r: 0.27157637, g: 0.43568867, b: 1, a: 1}
+  - {r: 0.38298187, g: 0.46994358, b: 1, a: 1}
+  - {r: 0.48154336, g: 0.48495486, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.49648115, g: 0.5522812, b: 1, a: 1}
+  - {r: 0.4292742, g: 0.7195867, b: 1, a: 1}
+  - {r: 0.42233658, g: 0.56352556, b: 1, a: 1}
+  - {r: 0.4761204, g: 0.504279, b: 1, a: 1}
+  - {r: 0.46276262, g: 0.5028545, b: 1, a: 1}
+  - {r: 0.43149295, g: 0.49139482, b: 1, a: 1}
+  - {r: 0.39319497, g: 0.4278633, b: 1, a: 1}
+  - {r: 0.35805476, g: 0.31886715, b: 1, a: 1}
+  - {r: 0.4606964, g: 0.42900655, b: 1, a: 1}
+  - {r: 0.47224137, g: 0.46764398, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5047052, g: 0.6037149, b: 1, a: 1}
+  - {r: 0.5122727, g: 0.75953865, b: 1, a: 1}
+  - {r: 0.49999195, g: 0.50027615, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.49736074, g: 0.4917533, b: 1, a: 1}
+  - {r: 0.41456047, g: 0.30122206, b: 1, a: 1}
+  - {r: 0.44890907, g: 0.34910262, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5110019, g: 0.58193254, b: 1, a: 1}
+  - {r: 0.591863, g: 0.7940071, b: 1, a: 1}
+  - {r: 0.5021806, g: 0.50440663, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.47108698, g: 0.35546485, b: 1, a: 1}
+  - {r: 0.46047536, g: 0.30928376, b: 1, a: 1}
+  - {r: 0.49673253, g: 0.48630813, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5122778, g: 0.54343575, b: 1, a: 1}
+  - {r: 0.5980492, g: 0.760377, b: 1, a: 1}
+  - {r: 0.54251766, g: 0.5612713, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.50762314, g: 0.35966223, b: 1, a: 1}
+  - {r: 0.49642384, g: 0.3148444, b: 1, a: 1}
+  - {r: 0.49696547, g: 0.47583446, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.6182483, g: 0.6961282, b: 1, a: 1}
+  - {r: 0.65787894, g: 0.64623165, b: 1, a: 1}
+  - {r: 0.5533788, g: 0.5404591, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.50714916, g: 0.48894933, b: 1, a: 1}
+  - {r: 0.5821187, g: 0.28543845, b: 1, a: 1}
+  - {r: 0.5321998, g: 0.37258175, b: 1, a: 1}
+  - {r: 0.50168115, g: 0.4880244, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5449872, g: 0.55272657, b: 1, a: 1}
+  - {r: 0.69033056, g: 0.65102804, b: 1, a: 1}
+  - {r: 0.69594055, g: 0.6093122, b: 1, a: 1}
+  - {r: 0.6181912, g: 0.54315484, b: 1, a: 1}
+  - {r: 0.5494153, g: 0.48994753, b: 1, a: 1}
+  - {r: 0.6206279, g: 0.3779794, b: 1, a: 1}
+  - {r: 0.6465778, g: 0.2909911, b: 1, a: 1}
+  - {r: 0.78832823, g: 0.69285107, b: 1, a: 1}
+  - {r: 0.8143819, g: 0.88262683, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5657355, g: 0.5411934, b: 1, a: 1}
+  - {r: 0.69775623, g: 0.5674441, b: 1, a: 1}
+  - {r: 0.75980407, g: 0.52587456, b: 1, a: 1}
+  - {r: 0.7466019, g: 0.46469063, b: 1, a: 1}
+  - {r: 0.71607316, g: 0.3923309, b: 1, a: 1}
+  - {r: 0.62572676, g: 0.43231195, b: 1, a: 1}
+  - {r: 0.5422647, g: 0.4718206, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.50053954, g: 0.5000921, b: 1, a: 1}
+  - {r: 0.53681725, g: 0.4999472, b: 1, a: 1}
+  - {r: 0.5242158, g: 0.49845624, b: 1, a: 1}
+  - {r: 0.5114479, g: 0.49797705, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  - {r: 0.5, g: 0.5, b: 1, a: 1}
+  _uv0: []
+  _uv1: []
+  _uv2: []
+  _uv3: []
+  _positions: []
+  _normals: []
+  _tangents: []
+  originalMaterial:
+  - {fileID: 2100000, guid: 6c4c71d1c9fb04a169bcc62173394989, type: 2}
+--- !u!33 &243828542
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 243828538}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &243828543
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 243828538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &351481386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 351481391}
+  - component: {fileID: 351481390}
+  - component: {fileID: 351481389}
+  - component: {fileID: 351481388}
+  - component: {fileID: 351481387}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &351481387
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 351481386}
+  m_Enabled: 1
+--- !u!124 &351481388
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 351481386}
+  m_Enabled: 1
+--- !u!92 &351481389
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 351481386}
+  m_Enabled: 1
+--- !u!20 &351481390
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 351481386}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &351481391
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 351481386}
+  m_LocalRotation: {x: -0.06078601, y: -0.9194854, z: 0.15735966, w: -0.35509112}
+  m_LocalPosition: {x: -4.6182575, y: 8.8524885, z: -11.999767}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1517469830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1517469832}
+  - component: {fileID: 1517469831}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1517469831
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1517469830}
+  m_Enabled: 1
+  serializedVersion: 7
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1517469832
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1517469830}
+  m_LocalRotation: {x: 0.40821794, y: -0.23456973, z: 0.109381676, w: 0.87542605}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1565472660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 1321620983504054, guid: a678c9444020a3946a0488142bd4068f,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1565472661}
+  - component: {fileID: 1565472663}
+  - component: {fileID: 1565472662}
+  - component: {fileID: 1565472664}
+  m_Layer: 0
+  m_Name: Retopo 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1565472661
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 4350165597537094, guid: a678c9444020a3946a0488142bd4068f,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1565472660}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 1.7467151, y: 4.537467, z: 0}
+  m_LocalScale: {x: 13.53898, y: 13.538966, z: 13.538966}
+  m_Children: []
+  m_Father: {fileID: 1899899598}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1565472662
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 23329266044096716, guid: a678c9444020a3946a0488142bd4068f,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1565472660}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1565472663
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 33424856019497352, guid: a678c9444020a3946a0488142bd4068f,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1565472660}
+  m_Mesh: {fileID: 4300000, guid: 787d051005d5b46218974ec43904b91b, type: 3}
+--- !u!114 &1565472664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1565472660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710d1a1a2d92b42478e8491f850e1d08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _colors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9992582, g: 0.99838525, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9992351, g: 0.9983829, b: 1, a: 1}
+  - {r: 0.9997873, g: 0.99945694, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9997668, g: 0.9994803, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99977696, g: 0.99948156, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.98409957, g: 0.96312195, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99980104, g: 0.9994605, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99977505, g: 0.9994544, b: 1, a: 1}
+  - {r: 0.97803813, g: 0.9533224, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9836154, g: 0.96303606, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.97858065, g: 0.95337075, b: 1, a: 1}
+  - {r: 0.9403011, g: 0.8560847, b: 1, a: 1}
+  - {r: 0.9419234, g: 0.86645687, b: 1, a: 1}
+  - {r: 0.9787884, g: 0.95344764, b: 1, a: 1}
+  - {r: 0.98236316, g: 0.9599604, b: 1, a: 1}
+  - {r: 0.9637691, g: 0.91812634, b: 1, a: 1}
+  - {r: 0.9992584, g: 0.9983853, b: 1, a: 1}
+  - {r: 0.98270786, g: 0.96006984, b: 1, a: 1}
+  - {r: 0.9782857, g: 0.9533534, b: 1, a: 1}
+  - {r: 0.99975497, g: 0.99945134, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9996432, g: 0.99897116, b: 1, a: 1}
+  - {r: 0.999771, g: 0.9990356, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9999791, g: 0.99992126, b: 1, a: 1}
+  - {r: 0.99677515, g: 0.9879569, b: 1, a: 1}
+  - {r: 0.99999934, g: 0.9983843, b: 1, a: 1}
+  - {r: 0.9998187, g: 0.9966825, b: 1, a: 1}
+  - {r: 0.9961451, g: 0.9878277, b: 1, a: 1}
+  - {r: 0.999997, g: 0.9999421, b: 1, a: 1}
+  - {r: 0.99574727, g: 0.98734444, b: 1, a: 1}
+  - {r: 0.9649668, g: 0.91359705, b: 1, a: 1}
+  - {r: 0.9841634, g: 0.95960224, b: 1, a: 1}
+  - {r: 0.99979126, g: 0.99905026, b: 1, a: 1}
+  - {r: 0.99922216, g: 0.99838185, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99957806, g: 0.9989533, b: 1, a: 1}
+  - {r: 0.9864534, g: 0.9602409, b: 1, a: 1}
+  - {r: 0.98262495, g: 0.95993596, b: 1, a: 1}
+  - {r: 0.99923587, g: 0.9983827, b: 1, a: 1}
+  - {r: 0.9851424, g: 0.95977044, b: 1, a: 1}
+  - {r: 0.9628108, g: 0.90522677, b: 1, a: 1}
+  - {r: 0.9641475, g: 0.91802645, b: 1, a: 1}
+  - {r: 0.98223823, g: 0.9598668, b: 1, a: 1}
+  - {r: 0.9731827, g: 0.90904087, b: 1, a: 1}
+  - {r: 0.9694185, g: 0.9023743, b: 1, a: 1}
+  - {r: 0.96631396, g: 0.9143368, b: 1, a: 1}
+  - {r: 0.94632965, g: 0.87340236, b: 1, a: 1}
+  - {r: 0.96099675, g: 0.9050353, b: 1, a: 1}
+  - {r: 0.9854218, g: 0.9606763, b: 1, a: 1}
+  - {r: 0.95827055, g: 0.89854145, b: 1, a: 1}
+  - {r: 0.9632869, g: 0.90549934, b: 1, a: 1}
+  - {r: 0.9497507, g: 0.87406343, b: 1, a: 1}
+  - {r: 0.9288404, g: 0.82731867, b: 1, a: 1}
+  - {r: 0.9642614, g: 0.9145386, b: 1, a: 1}
+  - {r: 0.9965232, g: 0.988564, b: 1, a: 1}
+  - {r: 0.9790866, g: 0.94806087, b: 1, a: 1}
+  - {r: 0.94160604, g: 0.86238563, b: 1, a: 1}
+  - {r: 0.9948719, g: 0.98549825, b: 1, a: 1}
+  - {r: 0.97789615, g: 0.94703174, b: 1, a: 1}
+  - {r: 0.9957762, g: 0.987613, b: 1, a: 1}
+  - {r: 0.99922264, g: 0.9958288, b: 1, a: 1}
+  - {r: 0.9986743, g: 0.9961617, b: 1, a: 1}
+  - {r: 0.99367404, g: 0.98472655, b: 1, a: 1}
+  - {r: 0.99844617, g: 0.99535084, b: 1, a: 1}
+  - {r: 0.99889714, g: 0.9967728, b: 1, a: 1}
+  - {r: 0.9618308, g: 0.84290475, b: 1, a: 1}
+  - {r: 0.92306477, g: 0.7181759, b: 1, a: 1}
+  - {r: 0.93417144, g: 0.8086275, b: 1, a: 1}
+  - {r: 0.9763033, g: 0.9068732, b: 1, a: 1}
+  - {r: 0.9401479, g: 0.8558325, b: 1, a: 1}
+  - {r: 0.963755, g: 0.91797864, b: 1, a: 1}
+  - {r: 0.9777833, g: 0.9087329, b: 1, a: 1}
+  - {r: 0.9461316, g: 0.8209001, b: 1, a: 1}
+  - {r: 0.92116827, g: 0.826258, b: 1, a: 1}
+  - {r: 0.9437265, g: 0.87311643, b: 1, a: 1}
+  - {r: 0.9094619, g: 0.79902095, b: 1, a: 1}
+  - {r: 0.88055193, g: 0.74046767, b: 1, a: 1}
+  - {r: 0.94523966, g: 0.8736707, b: 1, a: 1}
+  - {r: 0.9657229, g: 0.9173827, b: 1, a: 1}
+  - {r: 0.940875, g: 0.86195105, b: 1, a: 1}
+  - {r: 0.91027284, g: 0.7992145, b: 1, a: 1}
+  - {r: 0.8620417, g: 0.6963379, b: 1, a: 1}
+  - {r: 0.92130846, g: 0.8262124, b: 1, a: 1}
+  - {r: 0.8820243, g: 0.7405644, b: 1, a: 1}
+  - {r: 0.8362801, g: 0.6405419, b: 1, a: 1}
+  - {r: 0.8146904, g: 0.54652345, b: 1, a: 1}
+  - {r: 0.7783851, g: 0.45722103, b: 1, a: 1}
+  - {r: 0.8535389, g: 0.6429817, b: 1, a: 1}
+  - {r: 0.89464134, g: 0.7423716, b: 1, a: 1}
+  - {r: 0.8565756, g: 0.6501073, b: 1, a: 1}
+  - {r: 0.81408244, g: 0.5464099, b: 1, a: 1}
+  - {r: 0.8943273, g: 0.74231255, b: 1, a: 1}
+  - {r: 0.9185628, g: 0.8002405, b: 1, a: 1}
+  - {r: 0.91643405, g: 0.80171555, b: 1, a: 1}
+  - {r: 0.87840647, g: 0.71022296, b: 1, a: 1}
+  - {r: 0.94310445, g: 0.8616028, b: 1, a: 1}
+  - {r: 0.97841465, g: 0.94657296, b: 1, a: 1}
+  - {r: 0.9432595, g: 0.8614793, b: 1, a: 1}
+  - {r: 0.87915313, g: 0.7101426, b: 1, a: 1}
+  - {r: 0.8551684, g: 0.6498943, b: 1, a: 1}
+  - {r: 0.9180151, g: 0.8001744, b: 1, a: 1}
+  - {r: 0.99852145, g: 0.9939246, b: 1, a: 1}
+  - {r: 0.9504299, g: 0.88419175, b: 1, a: 1}
+  - {r: 0.9945717, g: 0.9851734, b: 1, a: 1}
+  - {r: 0.99909306, g: 0.99636537, b: 1, a: 1}
+  - {r: 0.99465907, g: 0.98519707, b: 1, a: 1}
+  - {r: 0.9516793, g: 0.88451344, b: 1, a: 1}
+  - {r: 0.91556185, g: 0.80185646, b: 1, a: 1}
+  - {r: 0.9781019, g: 0.9466098, b: 1, a: 1}
+  - {r: 0.8485379, g: 0.55705464, b: 1, a: 1}
+  - {r: 0.8596864, g: 0.45092183, b: 1, a: 1}
+  - {r: 0.9499269, g: 0.54155624, b: 1, a: 1}
+  - {r: 0.9238108, g: 0.55533564, b: 1, a: 1}
+  - {r: 0.8628687, g: 0.6515095, b: 1, a: 1}
+  - {r: 0.82405037, g: 0.531162, b: 1, a: 1}
+  - {r: 0.8045587, g: 0.41773665, b: 1, a: 1}
+  - {r: 0.83864444, g: 0.5530208, b: 1, a: 1}
+  - {r: 0.9122259, g: 0.80081123, b: 1, a: 1}
+  - {r: 0.8854581, g: 0.7371015, b: 1, a: 1}
+  - {r: 0.8450133, g: 0.6353308, b: 1, a: 1}
+  - {r: 0.87472934, g: 0.7093381, b: 1, a: 1}
+  - {r: 0.87756234, g: 0.7097884, b: 1, a: 1}
+  - {r: 0.8497899, g: 0.63617414, b: 1, a: 1}
+  - {r: 0.8120588, g: 0.52803695, b: 1, a: 1}
+  - {r: 0.8568474, g: 0.65016365, b: 1, a: 1}
+  - {r: 0.94688845, g: 0.88325125, b: 1, a: 1}
+  - {r: 0.93718743, g: 0.8601143, b: 1, a: 1}
+  - {r: 0.8835684, g: 0.7368577, b: 1, a: 1}
+  - {r: 0.91079324, g: 0.80064046, b: 1, a: 1}
+  - {r: 0.84697586, g: 0.71131885, b: 1, a: 1}
+  - {r: 0.8589285, g: 0.73601705, b: 1, a: 1}
+  - {r: 0.925148, g: 0.8592842, b: 1, a: 1}
+  - {r: 0.90308756, g: 0.81702703, b: 1, a: 1}
+  - {r: 0.74802625, g: 0.5262222, b: 1, a: 1}
+  - {r: 0.8046628, g: 0.63347155, b: 1, a: 1}
+  - {r: 0.8588657, g: 0.73601806, b: 1, a: 1}
+  - {r: 0.8463167, g: 0.71135825, b: 1, a: 1}
+  - {r: 0.8839213, g: 0.74038637, b: 1, a: 1}
+  - {r: 0.9831765, g: 0.9629863, b: 1, a: 1}
+  - {r: 0.93526655, g: 0.8512998, b: 1, a: 1}
+  - {r: 0.92632717, g: 0.8040961, b: 1, a: 1}
+  - {r: 0.9142959, g: 0.8082097, b: 1, a: 1}
+  - {r: 0.99976957, g: 0.9994806, b: 1, a: 1}
+  - {r: 0.98348033, g: 0.96302086, b: 1, a: 1}
+  - {r: 0.8879541, g: 0.7419019, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9997671, g: 0.9994803, b: 1, a: 1}
+  - {r: 0.9127158, g: 0.80799407, b: 1, a: 1}
+  - {r: 0.88739496, g: 0.70092875, b: 1, a: 1}
+  - {r: 0.6876043, g: 0.19016288, b: 1, a: 1}
+  - {r: 0.88112855, g: 0.7399652, b: 1, a: 1}
+  - {r: 0.9251532, g: 0.8033095, b: 1, a: 1}
+  - {r: 0.71320605, g: 0.37425524, b: 1, a: 1}
+  - {r: 0.85977215, g: 0.69612086, b: 1, a: 1}
+  - {r: 0.83367246, g: 0.6402927, b: 1, a: 1}
+  - {r: 0.7481342, g: 0.45298228, b: 1, a: 1}
+  - {r: 0.62889034, g: 0.18012811, b: 1, a: 1}
+  - {r: 0.85868555, g: 0.6960502, b: 1, a: 1}
+  - {r: 0.71159863, g: 0.3741312, b: 1, a: 1}
+  - {r: 0.5518065, g: 0.0027041773, b: 1, a: 1}
+  - {r: 0.7714668, g: 0.9402377, b: 1, a: 1}
+  - {r: 0.7231635, g: 0.95006233, b: 1, a: 1}
+  - {r: 0.8049477, g: 0.95776886, b: 1, a: 1}
+  - {r: 0.8312037, g: 0.9509188, b: 1, a: 1}
+  - {r: 0.8524064, g: 0.1988392, b: 1, a: 1}
+  - {r: 0.9107585, g: 0.72708744, b: 1, a: 1}
+  - {r: 0.8996243, g: 0.28277186, b: 1, a: 1}
+  - {r: 0.7586185, g: 0.0884158, b: 1, a: 1}
+  - {r: 0.63594735, g: 0.018841194, b: 1, a: 1}
+  - {r: 0.77192914, g: 0.38508424, b: 1, a: 1}
+  - {r: 0.64682555, g: 0.04710567, b: 1, a: 1}
+  - {r: 0.6350822, g: 0.018607114, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9120685, g: 0.8079311, b: 1, a: 1}
+  - {r: 0.9292309, g: 0.8329385, b: 1, a: 1}
+  - {r: 0.8538122, g: 0.67745036, b: 1, a: 1}
+  - {r: 0.9114766, g: 0.8078603, b: 1, a: 1}
+  - {r: 0.88085234, g: 0.73993015, b: 1, a: 1}
+  - {r: 0.6845568, g: 0.18961638, b: 1, a: 1}
+  - {r: 0.9273604, g: 0.8323388, b: 1, a: 1}
+  - {r: 0.8582798, g: 0.67796236, b: 1, a: 1}
+  - {r: 0.92755497, g: 0.8323743, b: 1, a: 1}
+  - {r: 0.69667137, g: 0.19265166, b: 1, a: 1}
+  - {r: 0.63381433, g: 0.03775553, b: 1, a: 1}
+  - {r: 0.59009874, g: 0.008233589, b: 1, a: 1}
+  - {r: 0.59053326, g: 0.0084100105, b: 1, a: 1}
+  - {r: 0.60282403, g: 0.031711143, b: 1, a: 1}
+  - {r: 0.66462064, g: 0.18607022, b: 1, a: 1}
+  - {r: 0.6028271, g: 0.010688346, b: 1, a: 1}
+  - {r: 0.63555515, g: 0.018745542, b: 1, a: 1}
+  - {r: 0.6228015, g: 0.015316898, b: 1, a: 1}
+  - {r: 0.5926177, g: 0.008653059, b: 1, a: 1}
+  - {r: 0.5826906, g: 0.008851692, b: 1, a: 1}
+  - {r: 0.5847127, g: 0.010076598, b: 1, a: 1}
+  - {r: 0.5735988, g: 0.0056522656, b: 1, a: 1}
+  - {r: 0.5736041, g: 0.0056332876, b: 1, a: 1}
+  - {r: 0.8522175, g: 0.6772992, b: 1, a: 1}
+  - {r: 0.8902363, g: 0.7617328, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.8941218, g: 0.7621155, b: 1, a: 1}
+  - {r: 0.8944741, g: 0.7645644, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.8920725, g: 0.7643228, b: 1, a: 1}
+  - {r: 0.9545972, g: 0.9019874, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.95692927, g: 0.902246, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.95479894, g: 0.9020064, b: 1, a: 1}
+  - {r: 0.8926105, g: 0.76436967, b: 1, a: 1}
+  - {r: 0.8970126, g: 0.774767, b: 1, a: 1}
+  - {r: 0.8307471, g: 0.6339569, b: 1, a: 1}
+  - {r: 0.89650196, g: 0.77472264, b: 1, a: 1}
+  - {r: 0.8925438, g: 0.7643648, b: 1, a: 1}
+  - {r: 0.8922043, g: 0.7619117, b: 1, a: 1}
+  - {r: 0.92230505, g: 0.83053505, b: 1, a: 1}
+  - {r: 0.6182843, g: 0.032283865, b: 1, a: 1}
+  - {r: 0.9229434, g: 0.8305907, b: 1, a: 1}
+  - {r: 0.89165205, g: 0.7618572, b: 1, a: 1}
+  - {r: 0.8536708, g: 0.67743593, b: 1, a: 1}
+  - {r: 0.92059195, g: 0.8304069, b: 1, a: 1}
+  - {r: 0.6105216, g: 0.03042917, b: 1, a: 1}
+  - {r: 0.6124032, g: 0.029993055, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.8306262, g: 0.63394415, b: 1, a: 1}
+  - {r: 0.8945139, g: 0.77457446, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9617671, g: 0.9171375, b: 1, a: 1}
+  - {r: 0.89377815, g: 0.7745297, b: 1, a: 1}
+  - {r: 0.9198788, g: 0.83036345, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.6279382, g: 0.016976386, b: 1, a: 1}
+  - {r: 0.6228768, g: 0.015997833, b: 1, a: 1}
+  - {r: 0.6327578, g: 0.035379138, b: 1, a: 1}
+  - {r: 0.637691, g: 0.040129524, b: 1, a: 1}
+  - {r: 0.6070546, g: 0.0116071785, b: 1, a: 1}
+  - {r: 0.6081151, g: 0.0121988775, b: 1, a: 1}
+  - {r: 0.6077736, g: 0.011762394, b: 1, a: 1}
+  - {r: 0.60725725, g: 0.011641458, b: 1, a: 1}
+  - {r: 0.6138387, g: 0.01691861, b: 1, a: 1}
+  - {r: 0.64625496, g: 0.09415743, b: 1, a: 1}
+  - {r: 0.5680266, g: 0.006080736, b: 1, a: 1}
+  - {r: 0.580943, g: 0.022072002, b: 1, a: 1}
+  - {r: 0.5824316, g: 0.022983892, b: 1, a: 1}
+  - {r: 0.57105637, g: 0.007469082, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.95690984, g: 0.90224355, b: 1, a: 1}
+  - {r: 0.83193135, g: 0.6340593, b: 1, a: 1}
+  - {r: 0.99012727, g: 0.97893345, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9903455, g: 0.97894967, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.8738464, g: 0.7295986, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9899801, g: 0.97892505, b: 1, a: 1}
+  - {r: 0.83018726, g: 0.6339175, b: 1, a: 1}
+  - {r: 0.9512567, g: 0.8957535, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.8730483, g: 0.7295369, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9510538, g: 0.8957402, b: 1, a: 1}
+  - {r: 0.98075503, g: 0.9591481, b: 1, a: 1}
+  - {r: 0.8721513, g: 0.7294939, b: 1, a: 1}
+  - {r: 0.8567603, g: 0.6958996, b: 1, a: 1}
+  - {r: 0.8949285, g: 0.77713126, b: 1, a: 1}
+  - {r: 0.95150024, g: 0.8957699, b: 1, a: 1}
+  - {r: 0.8931551, g: 0.7686939, b: 1, a: 1}
+  - {r: 0.89610124, g: 0.77719873, b: 1, a: 1}
+  - {r: 0.8576224, g: 0.6959399, b: 1, a: 1}
+  - {r: 0.9321423, g: 0.8547418, b: 1, a: 1}
+  - {r: 0.8709504, g: 0.7294312, b: 1, a: 1}
+  - {r: 0.82438993, g: 0.63358164, b: 1, a: 1}
+  - {r: 0.8555546, g: 0.6958337, b: 1, a: 1}
+  - {r: 0.83136046, g: 0.6340027, b: 1, a: 1}
+  - {r: 0.9617464, g: 0.9171357, b: 1, a: 1}
+  - {r: 0.9323011, g: 0.85475266, b: 1, a: 1}
+  - {r: 0.858155, g: 0.6959759, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9807009, g: 0.9591449, b: 1, a: 1}
+  - {r: 0.9648878, g: 0.92560166, b: 1, a: 1}
+  - {r: 0.9809224, g: 0.95915884, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.8950715, g: 0.77713287, b: 1, a: 1}
+  - {r: 0.96421987, g: 0.9255697, b: 1, a: 1}
+  - {r: 0.98040646, g: 0.95913094, b: 1, a: 1}
+  - {r: 0.9512207, g: 0.8957511, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.96288806, g: 0.91968936, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9657266, g: 0.9256615, b: 1, a: 1}
+  - {r: 0.9394897, g: 0.8694069, b: 1, a: 1}
+  - {r: 0.9627475, g: 0.91967976, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.89372426, g: 0.7687516, b: 1, a: 1}
+  - {r: 0.93978745, g: 0.86943036, b: 1, a: 1}
+  - {r: 0.96572036, g: 0.9256605, b: 1, a: 1}
+  - {r: 0.8958622, g: 0.77718884, b: 1, a: 1}
+  - {r: 0.5822181, g: 0.022064863, b: 1, a: 1}
+  - {r: 0.59049684, g: 0.034286723, b: 1, a: 1}
+  - {r: 0.59605056, g: 0.048812628, b: 1, a: 1}
+  - {r: 0.58546627, g: 0.023662647, b: 1, a: 1}
+  - {r: 0.64740705, g: 0.09546217, b: 1, a: 1}
+  - {r: 0.7885574, g: 0.45755917, b: 1, a: 1}
+  - {r: 0.6491574, g: 0.040193558, b: 1, a: 1}
+  - {r: 0.64277023, g: 0.02185206, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.60313857, g: 0.028094042, b: 1, a: 1}
+  - {r: 0.77651036, g: 0.4542242, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.78525037, g: 0.45609942, b: 1, a: 1}
+  - {r: 0.9999703, g: 0.9999216, b: 1, a: 1}
+  - {r: 0.9616393, g: 0.917128, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9999718, g: 0.999922, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9322829, g: 0.85475135, b: 1, a: 1}
+  - {r: 0.9616171, g: 0.91712666, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.8928341, g: 0.7686734, b: 1, a: 1}
+  - {r: 0.93204594, g: 0.8547355, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9369902, g: 0.86329573, b: 1, a: 1}
+  - {r: 0.93935746, g: 0.8693953, b: 1, a: 1}
+  - {r: 0.89321643, g: 0.7687013, b: 1, a: 1}
+  - {r: 0.9372196, g: 0.86331475, b: 1, a: 1}
+  - {r: 0.9405515, g: 0.8716952, b: 1, a: 1}
+  - {r: 0.9784872, g: 0.95319235, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9648565, g: 0.9244992, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.96257365, g: 0.9196689, b: 1, a: 1}
+  - {r: 0.94016075, g: 0.8711285, b: 1, a: 1}
+  - {r: 0.9646856, g: 0.92448723, b: 1, a: 1}
+  - {r: 0.96283257, g: 0.9196877, b: 1, a: 1}
+  - {r: 0.94337606, g: 0.8698631, b: 1, a: 1}
+  - {r: 0.9451542, g: 0.87227, b: 1, a: 1}
+  - {r: 0.9407033, g: 0.8711717, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9999657, g: 0.99992067, b: 1, a: 1}
+  - {r: 0.7166717, g: 0.3120197, b: 1, a: 1}
+  - {r: 0.8586065, g: 0.67419875, b: 1, a: 1}
+  - {r: 0.63447297, g: 0.091992795, b: 1, a: 1}
+  - {r: 0.7013636, g: 0.30949113, b: 1, a: 1}
+  - {r: 0.9999642, g: 0.9999205, b: 1, a: 1}
+  - {r: 0.79821026, g: 0.46026894, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.8683789, g: 0.67776763, b: 1, a: 1}
+  - {r: 0.99518245, g: 0.9900264, b: 1, a: 1}
+  - {r: 0.93660444, g: 0.8632553, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99519175, g: 0.99002665, b: 1, a: 1}
+  - {r: 0.9979408, g: 0.99572843, b: 1, a: 1}
+  - {r: 0.94106734, g: 0.8717391, b: 1, a: 1}
+  - {r: 0.9366924, g: 0.86326504, b: 1, a: 1}
+  - {r: 0.99793106, g: 0.99572814, b: 1, a: 1}
+  - {r: 0.95401883, g: 0.90679836, b: 1, a: 1}
+  - {r: 0.9404762, g: 0.87115437, b: 1, a: 1}
+  - {r: 0.9406996, g: 0.8717083, b: 1, a: 1}
+  - {r: 0.9538364, g: 0.9067955, b: 1, a: 1}
+  - {r: 0.9415038, g: 0.8813931, b: 1, a: 1}
+  - {r: 0.9654391, g: 0.9245503, b: 1, a: 1}
+  - {r: 0.9400653, g: 0.8711215, b: 1, a: 1}
+  - {r: 0.94132936, g: 0.88139063, b: 1, a: 1}
+  - {r: 0.98043007, g: 0.96054465, b: 1, a: 1}
+  - {r: 0.61384916, g: 0.019528108, b: 1, a: 1}
+  - {r: 0.61773217, g: 0.027676126, b: 1, a: 1}
+  - {r: 0.7261703, g: 0.31441116, b: 1, a: 1}
+  - {r: 0.6304969, g: 0.090874255, b: 1, a: 1}
+  - {r: 0.88436407, g: 0.6871692, b: 1, a: 1}
+  - {r: 0.73629504, g: 0.3234276, b: 1, a: 1}
+  - {r: 0.61408716, g: 0.054723345, b: 1, a: 1}
+  - {r: 0.6504913, g: 0.15574422, b: 1, a: 1}
+  - {r: 0.953497, g: 0.90679383, b: 1, a: 1}
+  - {r: 0.9979256, g: 0.99572796, b: 1, a: 1}
+  - {r: 0.87009263, g: 0.7637733, b: 1, a: 1}
+  - {r: 0.8787616, g: 0.7882552, b: 1, a: 1}
+  - {r: 0.99792653, g: 0.99572796, b: 1, a: 1}
+  - {r: 0.9951876, g: 0.9900266, b: 1, a: 1}
+  - {r: 0.78126323, g: 0.45138493, b: 1, a: 1}
+  - {r: 0.87106293, g: 0.7618412, b: 1, a: 1}
+  - {r: 0.9951804, g: 0.9900263, b: 1, a: 1}
+  - {r: 0.89287186, g: 0.69459546, b: 1, a: 1}
+  - {r: 0.6604481, g: 0.16959761, b: 1, a: 1}
+  - {r: 0.77964866, g: 0.46120644, b: 1, a: 1}
+  - {r: 0.94112813, g: 0.8813888, b: 1, a: 1}
+  - {r: 0.95358384, g: 0.9067941, b: 1, a: 1}
+  - {r: 0.8785013, g: 0.7882512, b: 1, a: 1}
+  - {r: 0.89515084, g: 0.8164899, b: 1, a: 1}
+  - {r: 0.98024535, g: 0.9605433, b: 1, a: 1}
+  - {r: 0.940789, g: 0.8813873, b: 1, a: 1}
+  - {r: 0.8949103, g: 0.8164838, b: 1, a: 1}
+  - {r: 0.9531805, g: 0.92136854, b: 1, a: 1}
+  - {r: 0.95320994, g: 0.92147964, b: 1, a: 1}
+  - {r: 0.89484966, g: 0.816495, b: 1, a: 1}
+  - {r: 0.8409463, g: 0.78607875, b: 1, a: 1}
+  - {r: 0.9282733, g: 0.9012847, b: 1, a: 1}
+  - {r: 0.81180966, g: 0.77470446, b: 1, a: 1}
+  - {r: 0.8424941, g: 0.7861296, b: 1, a: 1}
+  - {r: 0.8955507, g: 0.8165193, b: 1, a: 1}
+  - {r: 0.8805185, g: 0.7883191, b: 1, a: 1}
+  - {r: 0.80272526, g: 0.8263546, b: 1, a: 1}
+  - {r: 0.8127742, g: 0.7747401, b: 1, a: 1}
+  - {r: 0.8804802, g: 0.78831404, b: 1, a: 1}
+  - {r: 0.8709736, g: 0.7623822, b: 1, a: 1}
+  - {r: 0.7366895, g: 0.60967815, b: 1, a: 1}
+  - {r: 0.8024218, g: 0.8266413, b: 1, a: 1}
+  - {r: 0.8703943, g: 0.7643025, b: 1, a: 1}
+  - {r: 0.7651742, g: 0.44788784, b: 1, a: 1}
+  - {r: 0.6881197, g: 0.26231942, b: 1, a: 1}
+  - {r: 0.7316592, g: 0.5994026, b: 1, a: 1}
+  - {r: 0.77164805, g: 0.45316458, b: 1, a: 1}
+  - {r: 0.6411533, g: 0.17144309, b: 1, a: 1}
+  - {r: 0.6016964, g: 0.08660279, b: 1, a: 1}
+  - {r: 0.6973174, g: 0.27134195, b: 1, a: 1}
+  - {r: 0.6402385, g: 0.1668831, b: 1, a: 1}
+  - {r: 0.58249635, g: 0.057402182, b: 1, a: 1}
+  - {r: 0.43949285, g: 0.044726092, b: 1, a: 1}
+  - {r: 0.45010245, g: 0.009346827, b: 1, a: 1}
+  - {r: 0.44468522, g: 0.028112097, b: 1, a: 1}
+  - {r: 0.43698606, g: 0.05404686, b: 1, a: 1}
+  - {r: 0.46409905, g: 0.0013508442, b: 1, a: 1}
+  - {r: 0.46762255, g: 0.001601709, b: 1, a: 1}
+  - {r: 0.4548055, g: 0.0175363, b: 1, a: 1}
+  - {r: 0.45786175, g: 0.0072830548, b: 1, a: 1}
+  - {r: 0.4486154, g: 0.089572765, b: 1, a: 1}
+  - {r: 0.44158491, g: 0.052047648, b: 1, a: 1}
+  - {r: 0.44149634, g: 0.06312408, b: 1, a: 1}
+  - {r: 0.43949887, g: 0.08032513, b: 1, a: 1}
+  - {r: 0.41843003, g: 0.014894239, b: 1, a: 1}
+  - {r: 0.43611997, g: 0.008318302, b: 1, a: 1}
+  - {r: 0.44152254, g: 0.0065559936, b: 1, a: 1}
+  - {r: 0.42511398, g: 0.0116365, b: 1, a: 1}
+  - {r: 0.42477027, g: 0.028992118, b: 1, a: 1}
+  - {r: 0.41431838, g: 0.043315087, b: 1, a: 1}
+  - {r: 0.43181404, g: 0.023492318, b: 1, a: 1}
+  - {r: 0.44150898, g: 0.014358256, b: 1, a: 1}
+  - {r: 0.44065848, g: 0.051425792, b: 1, a: 1}
+  - {r: 0.4491457, g: 0.026021378, b: 1, a: 1}
+  - {r: 0.44032332, g: 0.050063353, b: 1, a: 1}
+  - {r: 0.4353544, g: 0.06607643, b: 1, a: 1}
+  - {r: 0.3795816, g: 0.074610285, b: 1, a: 1}
+  - {r: 0.40940884, g: 0.023657063, b: 1, a: 1}
+  - {r: 0.4586717, g: 0.0037742774, b: 1, a: 1}
+  - {r: 0.44766438, g: 0.0061670938, b: 1, a: 1}
+  - {r: 0.43463275, g: 0.091871664, b: 1, a: 1}
+  - {r: 0.44064665, g: 0.058422048, b: 1, a: 1}
+  - {r: 0.44695294, g: 0.03302008, b: 1, a: 1}
+  - {r: 0.43382856, g: 0.072778724, b: 1, a: 1}
+  - {r: 0.4557261, g: 0.078056246, b: 1, a: 1}
+  - {r: 0.4572764, g: 0.06108209, b: 1, a: 1}
+  - {r: 0.45420453, g: 0.07804034, b: 1, a: 1}
+  - {r: 0.4528828, g: 0.09187451, b: 1, a: 1}
+  - {r: 0.42503133, g: 0.021329876, b: 1, a: 1}
+  - {r: 0.4290973, g: 0.02769098, b: 1, a: 1}
+  - {r: 0.4440267, g: 0.012897544, b: 1, a: 1}
+  - {r: 0.4297165, g: 0.023694592, b: 1, a: 1}
+  - {r: 0.45812047, g: 0.005171001, b: 1, a: 1}
+  - {r: 0.4560818, g: 0.01732895, b: 1, a: 1}
+  - {r: 0.4463668, g: 0.04228688, b: 1, a: 1}
+  - {r: 0.45393103, g: 0.025107915, b: 1, a: 1}
+  - {r: 0.4344732, g: 0.026618646, b: 1, a: 1}
+  - {r: 0.4387836, g: 0.021525856, b: 1, a: 1}
+  - {r: 0.44309664, g: 0.018048756, b: 1, a: 1}
+  - {r: 0.43744445, g: 0.023927843, b: 1, a: 1}
+  - {r: 0.43091962, g: 0.024541508, b: 1, a: 1}
+  - {r: 0.4214278, g: 0.030848566, b: 1, a: 1}
+  - {r: 0.4230443, g: 0.03134692, b: 1, a: 1}
+  - {r: 0.43153295, g: 0.025600461, b: 1, a: 1}
+  - {r: 0.45320284, g: 0.014072087, b: 1, a: 1}
+  - {r: 0.4507942, g: 0.017147714, b: 1, a: 1}
+  - {r: 0.44470417, g: 0.02638738, b: 1, a: 1}
+  - {r: 0.44700444, g: 0.025016809, b: 1, a: 1}
+  - {r: 0.43425655, g: 0.034080975, b: 1, a: 1}
+  - {r: 0.43639252, g: 0.034150723, b: 1, a: 1}
+  - {r: 0.43218687, g: 0.024728905, b: 1, a: 1}
+  - {r: 0.42337707, g: 0.033032667, b: 1, a: 1}
+  - {r: 0.42507792, g: 0.03284783, b: 1, a: 1}
+  - {r: 0.42834884, g: 0.027824994, b: 1, a: 1}
+  - {r: 0.4544401, g: 0.0026376306, b: 1, a: 1}
+  - {r: 0.45110568, g: 0.003157974, b: 1, a: 1}
+  - {r: 0.41433147, g: 0.015870003, b: 1, a: 1}
+  - {r: 0.43016294, g: 0.010524917, b: 1, a: 1}
+  - {r: 0.4575458, g: 0.0018637967, b: 1, a: 1}
+  - {r: 0.45724913, g: 0.0018909395, b: 1, a: 1}
+  - {r: 0.4578845, g: 0.0026664769, b: 1, a: 1}
+  - {r: 0.45855245, g: 0.0017929736, b: 1, a: 1}
+  - {r: 0.42412242, g: 0.019580498, b: 1, a: 1}
+  - {r: 0.4443454, g: 0.007502969, b: 1, a: 1}
+  - {r: 0.45837316, g: 0.0019720192, b: 1, a: 1}
+  - {r: 0.45440963, g: 0.0024906658, b: 1, a: 1}
+  - {r: 0.47433352, g: 0.0006591968, b: 1, a: 1}
+  - {r: 0.68128455, g: 0.3965589, b: 1, a: 1}
+  - {r: 0.74716336, g: 0.52288926, b: 1, a: 1}
+  - {r: 0.64025867, g: 0.31862122, b: 1, a: 1}
+  - {r: 0.74693316, g: 0.52290463, b: 1, a: 1}
+  - {r: 0.8047692, g: 0.63346285, b: 1, a: 1}
+  - {r: 0.74836737, g: 0.5261996, b: 1, a: 1}
+  - {r: 0.6391539, g: 0.31868976, b: 1, a: 1}
+  - {r: 0.68405616, g: 0.3964143, b: 1, a: 1}
+  - {r: 0.47640115, g: 0.0005572278, b: 1, a: 1}
+  - {r: 0.47570178, g: 0.00059122953, b: 1, a: 1}
+  - {r: 0.58084583, g: 0.19996367, b: 1, a: 1}
+  - {r: 0.40401855, g: 0.033372045, b: 1, a: 1}
+  - {r: 0.40949562, g: 0.029752035, b: 1, a: 1}
+  - {r: 0.41060323, g: 0.028490555, b: 1, a: 1}
+  - {r: 0.4057714, g: 0.031623136, b: 1, a: 1}
+  - {r: 0.40239432, g: 0.02058302, b: 1, a: 1}
+  - {r: 0.41164804, g: 0.014290438, b: 1, a: 1}
+  - {r: 0.40565374, g: 0.016768297, b: 1, a: 1}
+  - {r: 0.39887187, g: 0.022864128, b: 1, a: 1}
+  - {r: 0.44727024, g: 0.0028780466, b: 1, a: 1}
+  - {r: 0.45166978, g: 0.002413764, b: 1, a: 1}
+  - {r: 0.43800035, g: 0.0039240364, b: 1, a: 1}
+  - {r: 0.42899653, g: 0.0051766057, b: 1, a: 1}
+  - {r: 0.46400166, g: 0.001344238, b: 1, a: 1}
+  - {r: 0.45926297, g: 0.0016995184, b: 1, a: 1}
+  - {r: 0.471745, g: 0.000801427, b: 1, a: 1}
+  - {r: 0.47499612, g: 0.00062827545, b: 1, a: 1}
+  - {r: 0.44550008, g: 0.017243005, b: 1, a: 1}
+  - {r: 0.45321792, g: 0.0045223706, b: 1, a: 1}
+  - {r: 0.45786503, g: 0.0018229957, b: 1, a: 1}
+  - {r: 0.45629317, g: 0.002003592, b: 1, a: 1}
+  - {r: 0.47117937, g: 0.0008429928, b: 1, a: 1}
+  - {r: 0.47032592, g: 0.00090025127, b: 1, a: 1}
+  - {r: 0.45648786, g: 0.0035105792, b: 1, a: 1}
+  - {r: 0.45893875, g: 0.002951258, b: 1, a: 1}
+  - {r: 0.47314212, g: 0.0007264917, b: 1, a: 1}
+  - {r: 0.47223875, g: 0.000780545, b: 1, a: 1}
+  - {r: 0.46037552, g: 0.002570219, b: 1, a: 1}
+  - {r: 0.46511012, g: 0.0015620537, b: 1, a: 1}
+  - {r: 0.46457022, g: 0.0014977922, b: 1, a: 1}
+  - {r: 0.4607594, g: 0.0021177018, b: 1, a: 1}
+  - {r: 0.44021752, g: 0.011232544, b: 1, a: 1}
+  - {r: 0.44647038, g: 0.007782083, b: 1, a: 1}
+  - {r: 0.41499937, g: 0.03423903, b: 1, a: 1}
+  - {r: 0.42460135, g: 0.025798362, b: 1, a: 1}
+  - {r: 0.44311807, g: 0.008485528, b: 1, a: 1}
+  - {r: 0.436758, g: 0.0119556105, b: 1, a: 1}
+  - {r: 0.43089506, g: 0.030821886, b: 1, a: 1}
+  - {r: 0.43148416, g: 0.035393987, b: 1, a: 1}
+  - {r: 0.4310953, g: 0.03655642, b: 1, a: 1}
+  - {r: 0.43101835, g: 0.0328865, b: 1, a: 1}
+  - {r: 0.42837822, g: 0.019110309, b: 1, a: 1}
+  - {r: 0.43144166, g: 0.015307726, b: 1, a: 1}
+  - {r: 0.41626072, g: 0.03791779, b: 1, a: 1}
+  - {r: 0.4129647, g: 0.041878987, b: 1, a: 1}
+  - {r: 0.42008898, g: 0.039426785, b: 1, a: 1}
+  - {r: 0.42146137, g: 0.037022077, b: 1, a: 1}
+  - {r: 0.41969016, g: 0.04005575, b: 1, a: 1}
+  - {r: 0.41758612, g: 0.041217647, b: 1, a: 1}
+  - {r: 0.4145857, g: 0.04111875, b: 1, a: 1}
+  - {r: 0.41152772, g: 0.040825915, b: 1, a: 1}
+  - {r: 0.41068605, g: 0.04239861, b: 1, a: 1}
+  - {r: 0.44171244, g: 0.03630385, b: 1, a: 1}
+  - {r: 0.43247032, g: 0.039028455, b: 1, a: 1}
+  - {r: 0.41033062, g: 0.050914694, b: 1, a: 1}
+  - {r: 0.41896817, g: 0.04723266, b: 1, a: 1}
+  - {r: 0.45714512, g: 0.003529136, b: 1, a: 1}
+  - {r: 0.45502934, g: 0.0040598046, b: 1, a: 1}
+  - {r: 0.4337772, g: 0.013924573, b: 1, a: 1}
+  - {r: 0.43160334, g: 0.01715842, b: 1, a: 1}
+  - {r: 0.7487387, g: 0.52618444, b: 1, a: 1}
+  - {r: 0.70307696, g: 0.44028714, b: 1, a: 1}
+  - {r: 0.5561768, g: 0.158913, b: 1, a: 1}
+  - {r: 0.639645, g: 0.31867132, b: 1, a: 1}
+  - {r: 0.8470199, g: 0.71132034, b: 1, a: 1}
+  - {r: 0.82286847, g: 0.6656972, b: 1, a: 1}
+  - {r: 0.7032427, g: 0.4402785, b: 1, a: 1}
+  - {r: 0.74880517, g: 0.52618116, b: 1, a: 1}
+  - {r: 0.70356077, g: 0.44026425, b: 1, a: 1}
+  - {r: 0.6842678, g: 0.40274656, b: 1, a: 1}
+  - {r: 0.5190114, g: 0.08618079, b: 1, a: 1}
+  - {r: 0.55602056, g: 0.15893054, b: 1, a: 1}
+  - {r: 0.82359946, g: 0.6656592, b: 1, a: 1}
+  - {r: 0.80755776, g: 0.63525164, b: 1, a: 1}
+  - {r: 0.68440306, g: 0.4027399, b: 1, a: 1}
+  - {r: 0.70414734, g: 0.44023076, b: 1, a: 1}
+  - {r: 0.47281718, g: 0.0007488423, b: 1, a: 1}
+  - {r: 0.4737904, g: 0.0006920941, b: 1, a: 1}
+  - {r: 0.5559407, g: 0.15894203, b: 1, a: 1}
+  - {r: 0.517443, g: 0.08626764, b: 1, a: 1}
+  - {r: 0.6402728, g: 0.3186325, b: 1, a: 1}
+  - {r: 0.55800223, g: 0.15881336, b: 1, a: 1}
+  - {r: 0.4739072, g: 0.00068366877, b: 1, a: 1}
+  - {r: 0.4734562, g: 0.00070507487, b: 1, a: 1}
+  - {r: 0.46426827, g: 0.0012792416, b: 1, a: 1}
+  - {r: 0.46696675, g: 0.0010954477, b: 1, a: 1}
+  - {r: 0.48156434, g: 0.00034096235, b: 1, a: 1}
+  - {r: 0.46794716, g: 0.0010300791, b: 1, a: 1}
+  - {r: 0.4681025, g: 0.0010505122, b: 1, a: 1}
+  - {r: 0.46779606, g: 0.0010705676, b: 1, a: 1}
+  - {r: 0.46197885, g: 0.0016830056, b: 1, a: 1}
+  - {r: 0.4645972, g: 0.0013827395, b: 1, a: 1}
+  - {r: 0.46770686, g: 0.0010816957, b: 1, a: 1}
+  - {r: 0.4567442, g: 0.0023667356, b: 1, a: 1}
+  - {r: 0.4588323, g: 0.002073449, b: 1, a: 1}
+  - {r: 0.46710005, g: 0.0011330163, b: 1, a: 1}
+  - {r: 0.46765676, g: 0.0011172465, b: 1, a: 1}
+  - {r: 0.46575838, g: 0.0012949301, b: 1, a: 1}
+  - {r: 0.4744608, g: 0.0006526667, b: 1, a: 1}
+  - {r: 0.47560874, g: 0.00059696805, b: 1, a: 1}
+  - {r: 0.47511446, g: 0.0006196845, b: 1, a: 1}
+  - {r: 0.4693927, g: 0.0009464896, b: 1, a: 1}
+  - {r: 0.46739796, g: 0.0010738891, b: 1, a: 1}
+  - {r: 0.47345975, g: 0.0007056291, b: 1, a: 1}
+  - {r: 0.47480616, g: 0.0006509606, b: 1, a: 1}
+  - {r: 0.4758561, g: 0.00059289817, b: 1, a: 1}
+  - {r: 0.5196983, g: 0.08615122, b: 1, a: 1}
+  - {r: 0.48026523, g: 0.007883078, b: 1, a: 1}
+  - {r: 0.791018, g: 0.6030027, b: 1, a: 1}
+  - {r: 0.64297557, g: 0.32228845, b: 1, a: 1}
+  - {r: 0.6854289, g: 0.40268582, b: 1, a: 1}
+  - {r: 0.80808985, g: 0.6352249, b: 1, a: 1}
+  - {r: 0.48145851, g: 0.007827388, b: 1, a: 1}
+  - {r: 0.5211055, g: 0.08607803, b: 1, a: 1}
+  - {r: 0.49121773, g: 0.02524408, b: 1, a: 1}
+  - {r: 0.47859922, g: 0.00046406416, b: 1, a: 1}
+  - {r: 0.4824901, g: 0.007780637, b: 1, a: 1}
+  - {r: 0.6428383, g: 0.3222908, b: 1, a: 1}
+  - {r: 0.79246277, g: 0.6029239, b: 1, a: 1}
+  - {r: 0.67925704, g: 0.38584793, b: 1, a: 1}
+  - {r: 0.49454528, g: 0.025108438, b: 1, a: 1}
+  - {r: 0.645855, g: 0.32213798, b: 1, a: 1}
+  - {r: 0.7909384, g: 0.6030082, b: 1, a: 1}
+  - {r: 0.808188, g: 0.6352206, b: 1, a: 1}
+  - {r: 0.88311654, g: 0.77772844, b: 1, a: 1}
+  - {r: 0.9063074, g: 0.8219942, b: 1, a: 1}
+  - {r: 0.8921815, g: 0.79572016, b: 1, a: 1}
+  - {r: 0.88249993, g: 0.77776104, b: 1, a: 1}
+  - {r: 0.8074905, g: 0.6352559, b: 1, a: 1}
+  - {r: 0.82383907, g: 0.66564626, b: 1, a: 1}
+  - {r: 0.903259, g: 0.8170208, b: 1, a: 1}
+  - {r: 0.892028, g: 0.7957262, b: 1, a: 1}
+  - {r: 0.8233123, g: 0.6656721, b: 1, a: 1}
+  - {r: 0.8473991, g: 0.7112988, b: 1, a: 1}
+  - {r: 0.68518263, g: 0.385638, b: 1, a: 1}
+  - {r: 0.7961002, g: 0.6027888, b: 1, a: 1}
+  - {r: 0.9084538, g: 0.82189816, b: 1, a: 1}
+  - {r: 0.86841536, g: 0.74345475, b: 1, a: 1}
+  - {r: 0.99699473, g: 0.99338377, b: 1, a: 1}
+  - {r: 0.99677944, g: 0.99291074, b: 1, a: 1}
+  - {r: 0.9374206, g: 0.8601387, b: 1, a: 1}
+  - {r: 0.94769406, g: 0.8833373, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99883896, g: 0.9999995, b: 1, a: 1}
+  - {r: 0.99958396, g: 0.9999998, b: 1, a: 1}
+  - {r: 0.99789244, g: 0.9935971, b: 1, a: 1}
+  - {r: 0.99877083, g: 0.9961981, b: 1, a: 1}
+  - {r: 0.9997443, g: 0.99922043, b: 1, a: 1}
+  - {r: 0.99926937, g: 0.99781805, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99849856, g: 0.9970309, b: 1, a: 1}
+  - {r: 0.9988609, g: 0.9977461, b: 1, a: 1}
+  - {r: 0.99754804, g: 0.99307, b: 1, a: 1}
+  - {r: 0.997716, g: 0.99353373, b: 1, a: 1}
+  - {r: 0.9992198, g: 0.9978007, b: 1, a: 1}
+  - {r: 0.9989707, g: 0.9971024, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9980138, g: 0.9960682, b: 1, a: 1}
+  - {r: 0.99850005, g: 0.9970309, b: 1, a: 1}
+  - {r: 0.9984613, g: 0.99703187, b: 1, a: 1}
+  - {r: 0.9979602, g: 0.99606943, b: 1, a: 1}
+  - {r: 0.98716575, g: 0.97559845, b: 1, a: 1}
+  - {r: 0.99631435, g: 0.9928978, b: 1, a: 1}
+  - {r: 0.90316474, g: 0.8170217, b: 1, a: 1}
+  - {r: 0.9250129, g: 0.85929155, b: 1, a: 1}
+  - {r: 0.9963551, g: 0.99289656, b: 1, a: 1}
+  - {r: 0.9872704, g: 0.9755942, b: 1, a: 1}
+  - {r: 0.9979778, g: 0.99606884, b: 1, a: 1}
+  - {r: 0.9977, g: 0.9955307, b: 1, a: 1}
+  - {r: 0.9855568, g: 0.97252476, b: 1, a: 1}
+  - {r: 0.98719686, g: 0.9755973, b: 1, a: 1}
+  - {r: 0.8921843, g: 0.79571515, b: 1, a: 1}
+  - {r: 0.90344137, g: 0.8170084, b: 1, a: 1}
+  - {r: 0.9872361, g: 0.9755965, b: 1, a: 1}
+  - {r: 0.98560804, g: 0.97252333, b: 1, a: 1}
+  - {r: 0.9977206, g: 0.9955301, b: 1, a: 1}
+  - {r: 0.99768686, g: 0.9954567, b: 1, a: 1}
+  - {r: 0.98071396, g: 0.9635464, b: 1, a: 1}
+  - {r: 0.98548055, g: 0.97253203, b: 1, a: 1}
+  - {r: 0.88250506, g: 0.7777595, b: 1, a: 1}
+  - {r: 0.89187706, g: 0.795737, b: 1, a: 1}
+  - {r: 0.98555654, g: 0.9725273, b: 1, a: 1}
+  - {r: 0.98079634, g: 0.963541, b: 1, a: 1}
+  - {r: 0.905904, g: 0.82201725, b: 1, a: 1}
+  - {r: 0.8822236, g: 0.77778035, b: 1, a: 1}
+  - {r: 0.98078674, g: 0.96354294, b: 1, a: 1}
+  - {r: 0.99239004, g: 0.9852992, b: 1, a: 1}
+  - {r: 0.9976913, g: 0.9954566, b: 1, a: 1}
+  - {r: 0.9981138, g: 0.9962871, b: 1, a: 1}
+  - {r: 0.99234116, g: 0.9853022, b: 1, a: 1}
+  - {r: 0.9806968, g: 0.9635487, b: 1, a: 1}
+  - {r: 0.9981373, g: 0.9962868, b: 1, a: 1}
+  - {r: 0.9999454, g: 0.9998909, b: 1, a: 1}
+  - {r: 0.99645066, g: 0.99292266, b: 1, a: 1}
+  - {r: 0.9925671, g: 0.98529124, b: 1, a: 1}
+  - {r: 0.86948055, g: 0.7434296, b: 1, a: 1}
+  - {r: 0.9094495, g: 0.8218742, b: 1, a: 1}
+  - {r: 0.99256945, g: 0.9852912, b: 1, a: 1}
+  - {r: 0.996437, g: 0.99292266, b: 1, a: 1}
+  - {r: 0.8807796, g: 0.7716446, b: 1, a: 1}
+  - {r: 0.86610323, g: 0.7435429, b: 1, a: 1}
+  - {r: 0.9964305, g: 0.9929233, b: 1, a: 1}
+  - {r: 0.9974288, g: 0.9948875, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9974369, g: 0.9948875, b: 1, a: 1}
+  - {r: 0.9964481, g: 0.9929229, b: 1, a: 1}
+  - {r: 0.99994546, g: 0.9998909, b: 1, a: 1}
+  - {r: 0.66256523, g: 0.37899038, b: 1, a: 1}
+  - {r: 0.6674982, g: 0.38669932, b: 1, a: 1}
+  - {r: 0.8619404, g: 0.74385804, b: 1, a: 1}
+  - {r: 0.87688905, g: 0.7719508, b: 1, a: 1}
+  - {r: 0.49458694, g: 0.060420804, b: 1, a: 1}
+  - {r: 0.47812402, g: 0.026010044, b: 1, a: 1}
+  - {r: 0.6659532, g: 0.38678044, b: 1, a: 1}
+  - {r: 0.6612444, g: 0.37901115, b: 1, a: 1}
+  - {r: 0.46545452, g: 0.0012124123, b: 1, a: 1}
+  - {r: 0.4644669, g: 0.0012952255, b: 1, a: 1}
+  - {r: 0.47849974, g: 0.025980478, b: 1, a: 1}
+  - {r: 0.49510235, g: 0.060369242, b: 1, a: 1}
+  - {r: 0.45600492, g: 0.003262264, b: 1, a: 1}
+  - {r: 0.45471314, g: 0.0036976708, b: 1, a: 1}
+  - {r: 0.46619257, g: 0.0011675009, b: 1, a: 1}
+  - {r: 0.4665881, g: 0.0011313948, b: 1, a: 1}
+  - {r: 0.43575314, g: 0.00866884, b: 1, a: 1}
+  - {r: 0.432826, g: 0.011530065, b: 1, a: 1}
+  - {r: 0.452674, g: 0.003697194, b: 1, a: 1}
+  - {r: 0.45435712, g: 0.0031912853, b: 1, a: 1}
+  - {r: 0.41439068, g: 0.029267076, b: 1, a: 1}
+  - {r: 0.40756235, g: 0.033923782, b: 1, a: 1}
+  - {r: 0.42863733, g: 0.013039278, b: 1, a: 1}
+  - {r: 0.43316934, g: 0.009344586, b: 1, a: 1}
+  - {r: 0.38992706, g: 0.038117625, b: 1, a: 1}
+  - {r: 0.38007048, g: 0.045100644, b: 1, a: 1}
+  - {r: 0.3970934, g: 0.035049018, b: 1, a: 1}
+  - {r: 0.4080395, g: 0.02912108, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9999276, g: 0.9998939, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9974114, g: 0.99488765, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99795175, g: 0.9959553, b: 1, a: 1}
+  - {r: 0.87463385, g: 0.7721438, b: 1, a: 1}
+  - {r: 0.99736196, g: 0.99488884, b: 1, a: 1}
+  - {r: 0.9979139, g: 0.99595606, b: 1, a: 1}
+  - {r: 0.16794384, g: 0.00051972136, b: 1, a: 1}
+  - {r: 0.6527621, g: 0.37997466, b: 1, a: 1}
+  - {r: 0.8730868, g: 0.7723299, b: 1, a: 1}
+  - {r: 0.16666542, g: 0.0006764527, b: 1, a: 1}
+  - {r: 0.74155146, g: 0.5377168, b: 1, a: 1}
+  - {r: 0.64820355, g: 0.40925884, b: 1, a: 1}
+  - {r: 0.64028096, g: 0.3817823, b: 1, a: 1}
+  - {r: 0.73159975, g: 0.53918433, b: 1, a: 1}
+  - {r: 0.1809277, g: 0.0023454018, b: 1, a: 1}
+  - {r: 0.4721181, g: 0.06267506, b: 1, a: 1}
+  - {r: 0.6455861, g: 0.38085213, b: 1, a: 1}
+  - {r: 0.65368086, g: 0.40827405, b: 1, a: 1}
+  - {r: 0.5168268, g: 0.14663039, b: 1, a: 1}
+  - {r: 0.45410305, g: 0.0021277147, b: 1, a: 1}
+  - {r: 0.4820844, g: 0.06151568, b: 1, a: 1}
+  - {r: 0.52453125, g: 0.14565341, b: 1, a: 1}
+  - {r: 0.45334667, g: 0.0021833247, b: 1, a: 1}
+  - {r: 0.45494998, g: 0.0024018316, b: 1, a: 1}
+  - {r: 0.46137497, g: 0.001506266, b: 1, a: 1}
+  - {r: 0.46079916, g: 0.001540569, b: 1, a: 1}
+  - {r: 0.45668915, g: 0.002037653, b: 1, a: 1}
+  - {r: 0.44294694, g: 0.0039528473, b: 1, a: 1}
+  - {r: 0.45253268, g: 0.0024263405, b: 1, a: 1}
+  - {r: 0.45422995, g: 0.0021942656, b: 1, a: 1}
+  - {r: 0.44198865, g: 0.0040581874, b: 1, a: 1}
+  - {r: 0.41144988, g: 0.10493045, b: 1, a: 1}
+  - {r: 0.44720453, g: 0.00306102, b: 1, a: 1}
+  - {r: 0.4482415, g: 0.0028977569, b: 1, a: 1}
+  - {r: 0.42440677, g: 0.06284767, b: 1, a: 1}
+  - {r: 0.3957455, g: 0.1797233, b: 1, a: 1}
+  - {r: 0.40717143, g: 0.116638176, b: 1, a: 1}
+  - {r: 0.41899133, g: 0.0681593, b: 1, a: 1}
+  - {r: 0.406205, g: 0.13160688, b: 1, a: 1}
+  - {r: 0.41500148, g: 0.060172573, b: 1, a: 1}
+  - {r: 0.44110692, g: 0.0040693306, b: 1, a: 1}
+  - {r: 0.4477961, g: 0.0029991514, b: 1, a: 1}
+  - {r: 0.43247733, g: 0.018215958, b: 1, a: 1}
+  - {r: 0.4633373, g: 0.0013677262, b: 1, a: 1}
+  - {r: 0.45344168, g: 0.0026260782, b: 1, a: 1}
+  - {r: 0.4480376, g: 0.0033408348, b: 1, a: 1}
+  - {r: 0.45872685, g: 0.001832351, b: 1, a: 1}
+  - {r: 0.5732689, g: 0.21354939, b: 1, a: 1}
+  - {r: 0.4633993, g: 0.001365498, b: 1, a: 1}
+  - {r: 0.4578837, g: 0.0019469942, b: 1, a: 1}
+  - {r: 0.46468315, g: 0.0012501946, b: 1, a: 1}
+  - {r: 0.9008544, g: 0.82002103, b: 1, a: 1}
+  - {r: 0.84090245, g: 0.71158856, b: 1, a: 1}
+  - {r: 0.66372836, g: 0.40707216, b: 1, a: 1}
+  - {r: 0.19078225, g: 0.0008905427, b: 1, a: 1}
+  - {r: 0.6652533, g: 0.4068704, b: 1, a: 1}
+  - {r: 0.8410753, g: 0.7115561, b: 1, a: 1}
+  - {r: 0.71432835, g: 0.4796361, b: 1, a: 1}
+  - {r: 0.5361603, g: 0.14451118, b: 1, a: 1}
+  - {r: 0.5338008, g: 0.14469895, b: 1, a: 1}
+  - {r: 0.71351147, g: 0.47970122, b: 1, a: 1}
+  - {r: 0.5710082, g: 0.21376532, b: 1, a: 1}
+  - {r: 0.46246275, g: 0.0014130343, b: 1, a: 1}
+  - {r: 0.9008384, g: 0.82025, b: 1, a: 1}
+  - {r: 0.19051656, g: 0.0012246721, b: 1, a: 1}
+  - {r: 0.9207182, g: 0.8579475, b: 1, a: 1}
+  - {r: 0.9508654, g: 0.9118977, b: 1, a: 1}
+  - {r: 0.16335812, g: 0.0014318549, b: 1, a: 1}
+  - {r: 0.91826534, g: 0.85804033, b: 1, a: 1}
+  - {r: 0.18439756, g: 0.0018870954, b: 1, a: 1}
+  - {r: 0.7352539, g: 0.538769, b: 1, a: 1}
+  - {r: 0.99846566, g: 0.99697983, b: 1, a: 1}
+  - {r: 0.9226765, g: 0.85727215, b: 1, a: 1}
+  - {r: 0.16951925, g: 0.0003671062, b: 1, a: 1}
+  - {r: 0.99794525, g: 0.99595535, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99847525, g: 0.9969797, b: 1, a: 1}
+  - {r: 0.9979572, g: 0.99595517, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.999306, g: 0.9999932, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99940187, g: 0.99879265, b: 1, a: 1}
+  - {r: 0.9985031, g: 0.99697965, b: 1, a: 1}
+  - {r: 0.95339507, g: 0.9113425, b: 1, a: 1}
+  - {r: 0.9248536, g: 0.85709906, b: 1, a: 1}
+  - {r: 0.99848807, g: 0.99697965, b: 1, a: 1}
+  - {r: 0.99939597, g: 0.9987926, b: 1, a: 1}
+  - {r: 0.9974957, g: 0.99998826, b: 1, a: 1}
+  - {r: 0.9530663, g: 0.99991107, b: 1, a: 1}
+  - {r: 0.99932295, g: 0.9999956, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9892526, g: 0.99998504, b: 1, a: 1}
+  - {r: 0.90713775, g: 0.9999341, b: 1, a: 1}
+  - {r: 0.9543422, g: 0.99996275, b: 1, a: 1}
+  - {r: 0.9975448, g: 0.9999915, b: 1, a: 1}
+  - {r: 0.96317697, g: 0.99996895, b: 1, a: 1}
+  - {r: 0.85038364, g: 0.99988806, b: 1, a: 1}
+  - {r: 0.9065119, g: 0.99992067, b: 1, a: 1}
+  - {r: 0.98917913, g: 0.9999846, b: 1, a: 1}
+  - {r: 0.9494409, g: 0.99997234, b: 1, a: 1}
+  - {r: 0.7320769, g: 0.99988115, b: 1, a: 1}
+  - {r: 0.851317, g: 0.99992555, b: 1, a: 1}
+  - {r: 0.9633819, g: 0.9999784, b: 1, a: 1}
+  - {r: 0.8764989, g: 0.99994326, b: 1, a: 1}
+  - {r: 0.5927384, g: 0.999753, b: 1, a: 1}
+  - {r: 0.7313717, g: 0.99986255, b: 1, a: 1}
+  - {r: 0.9493056, g: 0.9999689, b: 1, a: 1}
+  - {r: 0.5759384, g: 0.21332537, b: 1, a: 1}
+  - {r: 0.4737322, g: 0.016152514, b: 1, a: 1}
+  - {r: 0.46491462, g: 0.0012469174, b: 1, a: 1}
+  - {r: 0.4642849, g: 0.001297484, b: 1, a: 1}
+  - {r: 0.43808123, g: 0.0038526538, b: 1, a: 1}
+  - {r: 0.43344662, g: 0.004663176, b: 1, a: 1}
+  - {r: 0.43456045, g: 0.004305957, b: 1, a: 1}
+  - {r: 0.42045036, g: 0.0063758343, b: 1, a: 1}
+  - {r: 0.43168637, g: 0.025984123, b: 1, a: 1}
+  - {r: 0.4382657, g: 0.0040151407, b: 1, a: 1}
+  - {r: 0.44234958, g: 0.0033398808, b: 1, a: 1}
+  - {r: 0.4660152, g: 0.042613957, b: 1, a: 1}
+  - {r: 0.44587636, g: 0.02131602, b: 1, a: 1}
+  - {r: 0.42755857, g: 0.07171614, b: 1, a: 1}
+  - {r: 0.43695018, g: 0.02392389, b: 1, a: 1}
+  - {r: 0.46617773, g: 0.042597182, b: 1, a: 1}
+  - {r: 0.40032476, g: 0.114436306, b: 1, a: 1}
+  - {r: 0.41589847, g: 0.062029805, b: 1, a: 1}
+  - {r: 0.45566896, g: 0.01801013, b: 1, a: 1}
+  - {r: 0.4553694, g: 0.07037253, b: 1, a: 1}
+  - {r: 0.8775902, g: 0.99996996, b: 1, a: 1}
+  - {r: 0.94480383, g: 0.99999434, b: 1, a: 1}
+  - {r: 0.4917177, g: 0.9997433, b: 1, a: 1}
+  - {r: 0.5944643, g: 0.9998064, b: 1, a: 1}
+  - {r: 0.501599, g: 0.9999864, b: 1, a: 1}
+  - {r: 0.5016949, g: 0.9999882, b: 1, a: 1}
+  - {r: 0.50880295, g: 0.9999928, b: 1, a: 1}
+  - {r: 0.8730655, g: 0.9999756, b: 1, a: 1}
+  - {r: 0.9445276, g: 0.99998957, b: 1, a: 1}
+  - {r: 0.9542396, g: 0.9999924, b: 1, a: 1}
+  - {r: 0.86869615, g: 0.99998236, b: 1, a: 1}
+  - {r: 0.49023762, g: 0.9996916, b: 1, a: 1}
+  - {r: 0.51788294, g: 0.999953, b: 1, a: 1}
+  - {r: 0.49506763, g: 0.99996954, b: 1, a: 1}
+  - {r: 0.8711244, g: 0.99999785, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.44545352, g: 0.023321074, b: 1, a: 1}
+  - {r: 0.47624332, g: 0.041888088, b: 1, a: 1}
+  - {r: 0.5432577, g: 0.19504668, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.59768033, g: 0.9999254, b: 1, a: 1}
+  - {r: 0.51657254, g: 0.9999512, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9534644, g: 0.9999717, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.86634743, g: 0.9999258, b: 1, a: 1}
+  - {r: 0.34043616, g: 0.33713642, b: 1, a: 1}
+  - {r: 0.3714315, g: 0.12989591, b: 1, a: 1}
+  - {r: 0.46336728, g: 0.27449232, b: 1, a: 1}
+  - {r: 0.47700223, g: 0.52917314, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.64964986, g: 0.9998788, b: 1, a: 1}
+  - {r: 0.59770423, g: 0.99992424, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9971179, g: 0.9997929, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9878472, g: 0.9998401, b: 1, a: 1}
+  - {r: 0.9972902, g: 0.9999609, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9980975, g: 0.9999772, b: 1, a: 1}
+  - {r: 0.95959854, g: 0.99967074, b: 1, a: 1}
+  - {r: 0.9882281, g: 0.9999059, b: 1, a: 1}
+  - {r: 0.9981647, g: 0.99998885, b: 1, a: 1}
+  - {r: 0.9944612, g: 0.9999626, b: 1, a: 1}
+  - {r: 0.94537646, g: 0.99969083, b: 1, a: 1}
+  - {r: 0.96051675, g: 0.9997838, b: 1, a: 1}
+  - {r: 0.9945863, g: 0.9999765, b: 1, a: 1}
+  - {r: 0.99470913, g: 0.99997807, b: 1, a: 1}
+  - {r: 0.8701075, g: 0.9995919, b: 1, a: 1}
+  - {r: 0.94674885, g: 0.99982536, b: 1, a: 1}
+  - {r: 0.9948085, g: 0.9999867, b: 1, a: 1}
+  - {r: 0.9964783, g: 0.99999124, b: 1, a: 1}
+  - {r: 0.9421413, g: 0.9998915, b: 1, a: 1}
+  - {r: 0.87196654, g: 0.99972606, b: 1, a: 1}
+  - {r: 0.9965379, g: 0.99999493, b: 1, a: 1}
+  - {r: 0.99388, g: 0.9999906, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.95376486, g: 0.9999813, b: 1, a: 1}
+  - {r: 0.99997526, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9974388, g: 0.9999988, b: 1, a: 1}
+  - {r: 0.9999752, g: 1, b: 1, a: 1}
+  - {r: 0.95373714, g: 0.9999805, b: 1, a: 1}
+  - {r: 0.94379544, g: 0.999971, b: 1, a: 1}
+  - {r: 0.99376583, g: 0.99998295, b: 1, a: 1}
+  - {r: 0.99479055, g: 0.9999865, b: 1, a: 1}
+  - {r: 0.9973554, g: 0.99999475, b: 1, a: 1}
+  - {r: 0.94163066, g: 0.999857, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99753064, g: 0.9999989, b: 1, a: 1}
+  - {r: 0.9952684, g: 0.99999195, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99997663, g: 1, b: 1, a: 1}
+  - {r: 0.9975898, g: 0.9999987, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9999766, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9978796, g: 0.9996029, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99981856, g: 0.9998216, b: 1, a: 1}
+  - {r: 0.99330634, g: 0.99912506, b: 1, a: 1}
+  - {r: 0.9979292, g: 0.999628, b: 1, a: 1}
+  - {r: 0.9998131, g: 0.9998236, b: 1, a: 1}
+  - {r: 0.9959092, g: 0.9993783, b: 1, a: 1}
+  - {r: 0.992491, g: 0.9978584, b: 1, a: 1}
+  - {r: 0.9926, g: 0.9981181, b: 1, a: 1}
+  - {r: 0.99556935, g: 0.99886405, b: 1, a: 1}
+  - {r: 0.9977073, g: 0.9995082, b: 1, a: 1}
+  - {r: 0.99577856, g: 0.9995384, b: 1, a: 1}
+  - {r: 0.99376893, g: 0.99931407, b: 1, a: 1}
+  - {r: 0.9979774, g: 0.9997114, b: 1, a: 1}
+  - {r: 0.9980735, g: 0.99973667, b: 1, a: 1}
+  - {r: 0.99618864, g: 0.9999547, b: 1, a: 1}
+  - {r: 0.99820584, g: 0.9999782, b: 1, a: 1}
+  - {r: 0.9944275, g: 0.99994385, b: 1, a: 1}
+  - {r: 0.99341583, g: 0.999944, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9946079, g: 0.9996286, b: 1, a: 1}
+  - {r: 0.99834913, g: 0.9997743, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9982913, g: 0.99999756, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9983734, g: 0.9999976, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9970839, g: 0.9999022, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99842227, g: 0.99992603, b: 1, a: 1}
+  - {r: 0.998466, g: 0.99972796, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9967192, g: 0.99964345, b: 1, a: 1}
+  - {r: 0.997851, g: 0.99945456, b: 1, a: 1}
+  - {r: 0.9948593, g: 0.9973922, b: 1, a: 1}
+  - {r: 0.9998021, g: 0.9998036, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9979801, g: 0.999569, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9983252, g: 0.9998936, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.43051174, g: 0.049054068, b: 1, a: 1}
+  - {r: 0.52162385, g: 0.20653659, b: 1, a: 1}
+  - {r: 0.44481483, g: 0.04039063, b: 1, a: 1}
+  - {r: 0.43122485, g: 0.037155725, b: 1, a: 1}
+  - {r: 0.42250508, g: 0.026856365, b: 1, a: 1}
+  - {r: 0.4293682, g: 0.044061992, b: 1, a: 1}
+  - {r: 0.43647942, g: 0.019710662, b: 1, a: 1}
+  - {r: 0.43159354, g: 0.021890221, b: 1, a: 1}
+  - {r: 0.49912852, g: 0.06999563, b: 1, a: 1}
+  - {r: 0.68155533, g: 0.5590004, b: 1, a: 1}
+  - {r: 0.56214565, g: 0.18695652, b: 1, a: 1}
+  - {r: 0.44049147, g: 0.03250273, b: 1, a: 1}
+  - {r: 0.5302018, g: 0.102500916, b: 1, a: 1}
+  - {r: 0.7956231, g: 0.8158263, b: 1, a: 1}
+  - {r: 0.6810031, g: 0.55918866, b: 1, a: 1}
+  - {r: 0.51427364, g: 0.0682815, b: 1, a: 1}
+  - {r: 0.78320193, g: 0.7937427, b: 1, a: 1}
+  - {r: 0.7947255, g: 0.8182472, b: 1, a: 1}
+  - {r: 0.5644697, g: 0.17404054, b: 1, a: 1}
+  - {r: 0.42331713, g: 0.012977825, b: 1, a: 1}
+  - {r: 0.45930478, g: 0.07843659, b: 1, a: 1}
+  - {r: 0.4427968, g: 0.024723655, b: 1, a: 1}
+  - {r: 0.4269353, g: 0.013177883, b: 1, a: 1}
+  - {r: 0.41775864, g: 0.036351796, b: 1, a: 1}
+  - {r: 0.465711, g: 0.13152163, b: 1, a: 1}
+  - {r: 0.45444658, g: 0.09445786, b: 1, a: 1}
+  - {r: 0.42730212, g: 0.02955672, b: 1, a: 1}
+  - {r: 0.60946655, g: 0.2796502, b: 1, a: 1}
+  - {r: 0.8233904, g: 0.79172385, b: 1, a: 1}
+  - {r: 0.781675, g: 0.7969808, b: 1, a: 1}
+  - {r: 0.5651428, g: 0.19241342, b: 1, a: 1}
+  - {r: 0.90502137, g: 0.9201023, b: 1, a: 1}
+  - {r: 0.80339473, g: 0.86759263, b: 1, a: 1}
+  - {r: 0.5848735, g: 0.2850883, b: 1, a: 1}
+  - {r: 0.6462484, g: 0.3789866, b: 1, a: 1}
+  - {r: 0.51232636, g: 0.18469453, b: 1, a: 1}
+  - {r: 0.47335127, g: 0.114049785, b: 1, a: 1}
+  - {r: 0.40704462, g: 0.02044696, b: 1, a: 1}
+  - {r: 0.40165785, g: 0.02131802, b: 1, a: 1}
+  - {r: 0.57123494, g: 0.28470755, b: 1, a: 1}
+  - {r: 0.5186889, g: 0.19875634, b: 1, a: 1}
+  - {r: 0.40475637, g: 0.04651225, b: 1, a: 1}
+  - {r: 0.40818417, g: 0.04485752, b: 1, a: 1}
+  - {r: 0.40065548, g: 0.102291495, b: 1, a: 1}
+  - {r: 0.5895123, g: 0.40560496, b: 1, a: 1}
+  - {r: 0.52700174, g: 0.31265217, b: 1, a: 1}
+  - {r: 0.3761091, g: 0.069852896, b: 1, a: 1}
+  - {r: 0.43101645, g: 0.043977786, b: 1, a: 1}
+  - {r: 0.4346212, g: 0.038002398, b: 1, a: 1}
+  - {r: 0.45063284, g: 0.078641385, b: 1, a: 1}
+  - {r: 0.42637053, g: 0.053370714, b: 1, a: 1}
+  - {r: 0.4368508, g: 0.072846554, b: 1, a: 1}
+  - {r: 0.4153145, g: 0.03646375, b: 1, a: 1}
+  - {r: 0.41397995, g: 0.0354408, b: 1, a: 1}
+  - {r: 0.4066549, g: 0.033756007, b: 1, a: 1}
+  - {r: 0.41407818, g: 0.053887628, b: 1, a: 1}
+  - {r: 0.41258603, g: 0.056790538, b: 1, a: 1}
+  - {r: 0.40360814, g: 0.03788123, b: 1, a: 1}
+  - {r: 0.38540688, g: 0.04353987, b: 1, a: 1}
+  - {r: 0.39803678, g: 0.051585283, b: 1, a: 1}
+  - {r: 0.4163017, g: 0.053421512, b: 1, a: 1}
+  - {r: 0.4008919, g: 0.036160894, b: 1, a: 1}
+  - {r: 0.43928856, g: 0.07792833, b: 1, a: 1}
+  - {r: 0.45173267, g: 0.15913557, b: 1, a: 1}
+  - {r: 0.35858968, g: 0.16820006, b: 1, a: 1}
+  - {r: 0.36116698, g: 0.14158069, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9781847, g: 0.95315653, b: 1, a: 1}
+  - {r: 0.96498656, g: 0.92451143, b: 1, a: 1}
+  - {r: 0.98034835, g: 0.96054476, b: 1, a: 1}
+  - {r: 0.9963884, g: 0.99282396, b: 1, a: 1}
+  - {r: 0.9274157, g: 0.8992273, b: 1, a: 1}
+  - {r: 0.9573313, g: 0.9264126, b: 1, a: 1}
+  - {r: 0.9777855, g: 0.9640584, b: 1, a: 1}
+  - {r: 0.9526225, g: 0.92136836, b: 1, a: 1}
+  - {r: 0.95268023, g: 0.92137337, b: 1, a: 1}
+  - {r: 0.97769547, g: 0.96401054, b: 1, a: 1}
+  - {r: 0.9963803, g: 0.99282396, b: 1, a: 1}
+  - {r: 0.98007977, g: 0.96054417, b: 1, a: 1}
+  - {r: 0.5930988, g: 0.41677478, b: 1, a: 1}
+  - {r: 0.7824783, g: 0.70997673, b: 1, a: 1}
+  - {r: 0.9516092, g: 0.92389214, b: 1, a: 1}
+  - {r: 0.9226422, g: 0.90199566, b: 1, a: 1}
+  - {r: 0.4454649, g: 0.2279381, b: 1, a: 1}
+  - {r: 0.7735107, g: 0.71772826, b: 1, a: 1}
+  - {r: 0.58375627, g: 0.41299206, b: 1, a: 1}
+  - {r: 0.3880293, g: 0.15512556, b: 1, a: 1}
+  - {r: 0.4061871, g: 0.2289175, b: 1, a: 1}
+  - {r: 0.44871, g: 0.26366064, b: 1, a: 1}
+  - {r: 0.48609567, g: 0.34284744, b: 1, a: 1}
+  - {r: 0.43256286, g: 0.27671102, b: 1, a: 1}
+  - {r: 0.38260397, g: 0.23690012, b: 1, a: 1}
+  - {r: 0.4174935, g: 0.2621533, b: 1, a: 1}
+  - {r: 0.4255543, g: 0.2802865, b: 1, a: 1}
+  - {r: 0.38655204, g: 0.2471746, b: 1, a: 1}
+  - {r: 0.38707942, g: 0.17324242, b: 1, a: 1}
+  - {r: 0.4136007, g: 0.20770118, b: 1, a: 1}
+  - {r: 0.419691, g: 0.26155007, b: 1, a: 1}
+  - {r: 0.3914, g: 0.23074295, b: 1, a: 1}
+  - {r: 0.45781127, g: 0.17380542, b: 1, a: 1}
+  - {r: 0.57463443, g: 0.34547168, b: 1, a: 1}
+  - {r: 0.42536363, g: 0.19300435, b: 1, a: 1}
+  - {r: 0.39877212, g: 0.15731686, b: 1, a: 1}
+  - {r: 0.47077453, g: 0.40853915, b: 1, a: 1}
+  - {r: 0.34977204, g: 0.23419958, b: 1, a: 1}
+  - {r: 0.49248484, g: 0.37663496, b: 1, a: 1}
+  - {r: 0.67263144, g: 0.63120204, b: 1, a: 1}
+  - {r: 0.5109794, g: 0.6861817, b: 1, a: 1}
+  - {r: 0.52004576, g: 0.74147546, b: 1, a: 1}
+  - {r: 0.37235218, g: 0.67361283, b: 1, a: 1}
+  - {r: 0.35247234, g: 0.49914464, b: 1, a: 1}
+  - {r: 0.7937571, g: 0.999884, b: 1, a: 1}
+  - {r: 0.66032535, g: 0.9998348, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.65801626, g: 0.9998431, b: 1, a: 1}
+  - {r: 0.6497944, g: 0.9998653, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9783656, g: 0.9531779, b: 1, a: 1}
+  - {r: 0.992667, g: 0.9816896, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9964063, g: 0.99282396, b: 1, a: 1}
+  - {r: 0.9915808, g: 0.9805771, b: 1, a: 1}
+  - {r: 0.97854424, g: 0.95318586, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99496245, g: 0.99679303, b: 1, a: 1}
+  - {r: 0.97385645, g: 0.9670035, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.7804585, g: 0.57479626, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.5202968, g: 0.06403795, b: 1, a: 1}
+  - {r: 0.64333594, g: 0.30127963, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.90944827, g: 0.82323605, b: 1, a: 1}
+  - {r: 0.97182846, g: 0.9777612, b: 1, a: 1}
+  - {r: 0.9456175, g: 0.9412799, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9490472, g: 0.9278432, b: 1, a: 1}
+  - {r: 0.81598777, g: 0.6838536, b: 1, a: 1}
+  - {r: 0.9438574, g: 0.9139097, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.6450327, g: 0.3012454, b: 1, a: 1}
+  - {r: 0.78801066, g: 0.5745854, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9898682, g: 0.9804833, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.98987204, g: 0.98048323, b: 1, a: 1}
+  - {r: 0.99505335, g: 0.99708545, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.7951809, g: 0.73147005, b: 1, a: 1}
+  - {r: 0.5051245, g: 0.18242492, b: 1, a: 1}
+  - {r: 0.83856004, g: 0.75043803, b: 1, a: 1}
+  - {r: 0.9344693, g: 0.93648726, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.48344827, g: 0.21888004, b: 1, a: 1}
+  - {r: 0.4688948, g: 0.13766138, b: 1, a: 1}
+  - {r: 0.8290229, g: 0.72523993, b: 1, a: 1}
+  - {r: 0.8353751, g: 0.75830066, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.54058284, g: 0.074325666, b: 1, a: 1}
+  - {r: 0.5359187, g: 0.06424404, b: 1, a: 1}
+  - {r: 0.84601516, g: 0.693981, b: 1, a: 1}
+  - {r: 0.85189825, g: 0.70656145, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.48362872, g: 0.094176754, b: 1, a: 1}
+  - {r: 0.49662066, g: 0.078457095, b: 1, a: 1}
+  - {r: 0.90699965, g: 0.8235238, b: 1, a: 1}
+  - {r: 0.8291131, g: 0.7013004, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9999614, g: 0.9999156, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9984442, g: 0.9966793, b: 1, a: 1}
+  - {r: 0.9999604, g: 0.99991554, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9997888, g: 0.9994623, b: 1, a: 1}
+  - {r: 0.9996869, g: 0.9992026, b: 1, a: 1}
+  - {r: 0.9984671, g: 0.9961021, b: 1, a: 1}
+  - {r: 0.9987091, g: 0.9967179, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99974793, g: 0.99945617, b: 1, a: 1}
+  - {r: 0.99843824, g: 0.99667895, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9996197, g: 0.99919295, b: 1, a: 1}
+  - {r: 0.99974376, g: 0.99945587, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99945855, g: 0.998927, b: 1, a: 1}
+  - {r: 0.9977439, g: 0.99552983, b: 1, a: 1}
+  - {r: 0.9980158, g: 0.9960681, b: 1, a: 1}
+  - {r: 0.99768335, g: 0.99545676, b: 1, a: 1}
+  - {r: 0.9977183, g: 0.99553025, b: 1, a: 1}
+  - {r: 0.9994529, g: 0.99892706, b: 1, a: 1}
+  - {r: 0.99879146, g: 0.997627, b: 1, a: 1}
+  - {r: 0.9980464, g: 0.9962894, b: 1, a: 1}
+  - {r: 0.9975971, g: 0.9954601, b: 1, a: 1}
+  - {r: 0.9987475, g: 0.9976286, b: 1, a: 1}
+  - {r: 0.99989885, g: 0.9998076, b: 1, a: 1}
+  - {r: 0.997566, g: 0.9963789, b: 1, a: 1}
+  - {r: 0.99987715, g: 0.9998112, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9999323, g: 0.99989253, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99987984, g: 0.99981046, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99945927, g: 0.998927, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9988044, g: 0.99762684, b: 1, a: 1}
+  - {r: 0.9994572, g: 0.998927, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9998755, g: 0.99975026, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99946094, g: 0.998927, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9998966, g: 0.9998077, b: 1, a: 1}
+  - {r: 0.9986754, g: 0.9976349, b: 1, a: 1}
+  - {r: 0.9998643, g: 0.99975073, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9998789, g: 0.99981076, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.99987304, g: 0.99975026, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9998613, g: 0.99975103, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  _uv0: []
+  _uv1: []
+  _uv2: []
+  _uv3: []
+  _positions: []
+  _normals: []
+  _tangents: []
+  originalMaterial:
+  - {fileID: 0}
+--- !u!4 &1899899598 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4625528619649410, guid: a678c9444020a3946a0488142bd4068f,
+    type: 2}
+  m_PrefabInternal: {fileID: 2080429871}
+--- !u!1001 &2080429871
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4625528619649410, guid: a678c9444020a3946a0488142bd4068f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.31677294
+      objectReference: {fileID: 0}
+    - target: {fileID: 4625528619649410, guid: a678c9444020a3946a0488142bd4068f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.8294888
+      objectReference: {fileID: 0}
+    - target: {fileID: 4625528619649410, guid: a678c9444020a3946a0488142bd4068f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -18.319887
+      objectReference: {fileID: 0}
+    - target: {fileID: 4625528619649410, guid: a678c9444020a3946a0488142bd4068f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4625528619649410, guid: a678c9444020a3946a0488142bd4068f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4625528619649410, guid: a678c9444020a3946a0488142bd4068f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4625528619649410, guid: a678c9444020a3946a0488142bd4068f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4625528619649410, guid: a678c9444020a3946a0488142bd4068f, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321620983504054, guid: a678c9444020a3946a0488142bd4068f, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: a678c9444020a3946a0488142bd4068f, type: 2}
+  m_IsPrefabParent: 0

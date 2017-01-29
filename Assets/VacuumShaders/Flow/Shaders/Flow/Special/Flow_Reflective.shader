@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+
 Shader "VacuumShaders/Flow/Special/Flow_Reflective" {
 Properties {
 		_SpecColor ("Flow Specular Color", Color) = (0.5, 0.5, 0.5, 1)
@@ -51,7 +53,7 @@ Properties {
 		void vert (inout appdata_full v, out Input o)
 		{	
 			o = (Input)0;
-		    o.simpleWorldRefl = -reflect( normalize(WorldSpaceViewDir(v.vertex)), normalize(mul((float3x3)_Object2World, SCALED_NORMAL)));
+		    o.simpleWorldRefl = -reflect( normalize(WorldSpaceViewDir(v.vertex)), normalize(mul((float3x3)unity_ObjectToWorld, SCALED_NORMAL)));
 		}
 
 		void surf (Input IN, inout SurfaceOutput o) 

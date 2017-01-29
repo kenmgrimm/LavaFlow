@@ -1,3 +1,5 @@
+#warning Upgrade NOTE: unity_Scale shader variable was removed; replaced 'unity_Scale.w' with '1.0'
+
 Shader "VacuumShaders/Flow/No_Base/Flow_Refractive" {
 	Properties {
 		_SpecColor ("Flow Specular Color", Color) = (0.5, 0.5, 0.5, 1)
@@ -70,7 +72,7 @@ Shader "VacuumShaders/Flow/No_Base/Flow_Refractive" {
 			float scale = 1.0;
 			#endif
 			o.GrabUV.xy = (float2(vertex.x, vertex.y * scale) + vertex.w) * 0.5;
-			o.GrabUV.z = vertex.z / unity_Scale.w;
+			o.GrabUV.z = vertex.z / 1.0;
 			o.GrabUV.w = vertex.w; 
 			
 

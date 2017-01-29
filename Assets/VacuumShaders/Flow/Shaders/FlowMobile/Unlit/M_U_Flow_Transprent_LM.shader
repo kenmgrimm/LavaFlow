@@ -1,3 +1,7 @@
+// Upgrade NOTE: commented out 'float4 unity_LightmapST', a built-in variable
+// Upgrade NOTE: commented out 'sampler2D unity_Lightmap', a built-in variable
+// Upgrade NOTE: replaced tex2D unity_Lightmap with UNITY_SAMPLE_TEX2D
+
 // - no Specular Color 
 // - specular lighting directions are approximated per vertex
 // - Normalmap uses Tiling/Offset of the Base texture
@@ -40,8 +44,8 @@ Properties {
 				float4 _FlowTexture_ST;
 				float4 _FlowMap_ST;
 
-				float4 unity_LightmapST;
-				sampler2D unity_Lightmap;
+				// float4 unity_LightmapST;
+				// sampler2D unity_Lightmap;
 			
 				v2f vert(appdata_full v) {
 					v2f o;
@@ -101,7 +105,7 @@ Properties {
 					retColor.rgb = mainColor.rgb + final.rgb * _FlowColor.rgb;
 					retColor.a = flowMap.b * _MainColor.a * IN.color.a;
 
-					fixed3 lm = ( DecodeLightmap (tex2D(unity_Lightmap, IN.uv[3])));
+					fixed3 lm = ( DecodeLightmap (UNITY_SAMPLE_TEX2D(unity_Lightmap, IN.uv[3])));
 					retColor.rgb *= lm;
 
 					return retColor; 
