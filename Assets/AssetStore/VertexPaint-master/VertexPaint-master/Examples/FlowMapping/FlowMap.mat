@@ -48,8 +48,8 @@ Material:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: 4bd22db1a4946453fbc2b3442e42621d, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 3e3b4bde6d2104bdeb223c8db28b8a0d, type: 3}
+        m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _MetallicGlossMap
@@ -61,7 +61,7 @@ Material:
         name: _NormalTex
       second:
         m_Texture: {fileID: 2800000, guid: ead260fb7b1cc4b2c9ee037b18828c31, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _OcclusionMap
@@ -90,16 +90,16 @@ Material:
       second: 0
     - first:
         name: _FlowIntensity
-      second: 0.12
+      second: 2
     - first:
         name: _FlowSpeed
       second: 0.3
     - first:
         name: _Glossiness
-      second: 0.732
+      second: 0.122
     - first:
         name: _Metallic
-      second: 0
+      second: 0.471
     - first:
         name: _Mode
       second: 0

@@ -7,10 +7,10 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: SplatBlend
-  m_Shader: {fileID: 4800000, guid: ce2682afc43314c2abe57fc23f9c61e2, type: 3}
-  m_ShaderKeywords: _EMISSION _FLOW1 _LAYERS3 _NORMALMAP _PARALLAXMAP
+  m_Shader: {fileID: 4800000, guid: 7b2852392be424b1c8dfe8bcb8ca9a05, type: 3}
+  m_ShaderKeywords: _EMISSION _FLOW1 _FLOWDRIFT _LAYERS2 _NORMALMAP _PARALLAXMAP
   m_LightmapFlags: 5
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   m_SavedProperties:
     serializedVersion: 2
@@ -48,7 +48,7 @@ Material:
     - first:
         name: _Emissive1
       second:
-        m_Texture: {fileID: 2800000, guid: 4bd22db1a4946453fbc2b3442e42621d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3e3b4bde6d2104bdeb223c8db28b8a0d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -166,9 +166,27 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
+        name: _SpecGlossMap1
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecGlossMap2
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SpecGlossMap3
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
         name: _Tex1
       second:
-        m_Texture: {fileID: 2800000, guid: 4bd22db1a4946453fbc2b3442e42621d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3e3b4bde6d2104bdeb223c8db28b8a0d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -180,7 +198,7 @@ Material:
     - first:
         name: _Tex3
       second:
-        m_Texture: {fileID: 2800000, guid: c3ada2bf9f20b489c9e47cad520181ab, type: 3}
+        m_Texture: {fileID: 2800000, guid: f0feb7f1a460f49c49ce0da23bafd45b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -204,10 +222,10 @@ Material:
       second: 0.5
     - first:
         name: _Contrast2
-      second: 0.658
+      second: 0.99
     - first:
         name: _Contrast3
-      second: 0.559
+      second: 0
     - first:
         name: _Contrast4
       second: 0.5
@@ -236,11 +254,14 @@ Material:
         name: _DistUVScale3
       second: 0.5
     - first:
+        name: _DistUVScale4
+      second: 0.5
+    - first:
         name: _DstBlend
       second: 0
     - first:
         name: _EmissiveMult1
-      second: 0.5
+      second: 0.76
     - first:
         name: _EmissiveMult2
       second: 0
@@ -258,7 +279,7 @@ Material:
       second: 1
     - first:
         name: _FlowIntensity
-      second: 0.2
+      second: 2
     - first:
         name: _FlowIntensity1
       second: 1
@@ -282,7 +303,7 @@ Material:
       second: 0.04
     - first:
         name: _FlowSpeed
-      second: 0.1
+      second: 0.5
     - first:
         name: _FlowSpeed1
       second: 0
@@ -303,7 +324,7 @@ Material:
       second: 0.5
     - first:
         name: _Glossiness1
-      second: 0.72
+      second: 0.05
     - first:
         name: _Glossiness2
       second: 0.3
@@ -324,10 +345,10 @@ Material:
       second: 0
     - first:
         name: _Metallic1
-      second: 0
+      second: 0.386
     - first:
         name: _Metallic2
-      second: 0
+      second: 0.391
     - first:
         name: _Metallic3
       second: 0
@@ -348,13 +369,13 @@ Material:
       second: 0.02
     - first:
         name: _Parallax1
-      second: 0.037
+      second: 0.005
     - first:
         name: _Parallax2
-      second: 0.0424
+      second: 0.0208
     - first:
         name: _Parallax3
-      second: 0.0261
+      second: 0.0247
     - first:
         name: _Parallax4
       second: 0.02
@@ -366,13 +387,13 @@ Material:
       second: 1
     - first:
         name: _TexScale1
-      second: 1
+      second: 8.5
     - first:
         name: _TexScale2
-      second: 2
+      second: 0.61
     - first:
         name: _TexScale3
-      second: 3
+      second: 8
     - first:
         name: _TexScale4
       second: 1
@@ -396,6 +417,15 @@ Material:
         name: _FlowMove
       second: {r: 0, g: 0, b: 0, a: 0}
     - first:
+        name: _SpecColor1
+      second: {r: 0.2, g: 0.2, b: 0.2, a: 0.2}
+    - first:
+        name: _SpecColor2
+      second: {r: 0.2, g: 0.2, b: 0.2, a: 0.2}
+    - first:
+        name: _SpecColor3
+      second: {r: 0.2, g: 0.2, b: 0.2, a: 0.2}
+    - first:
         name: _Tint1
       second: {r: 1, g: 1, b: 1, a: 1}
     - first:
@@ -403,4 +433,7 @@ Material:
       second: {r: 1, g: 1, b: 1, a: 1}
     - first:
         name: _Tint3
+      second: {r: 0.28676468, g: 0.28676468, b: 0.28676468, a: 1}
+    - first:
+        name: _Tint4
       second: {r: 1, g: 1, b: 1, a: 1}
