@@ -90,7 +90,7 @@ Material:
       second: 0
     - first:
         name: _Emission
-      second: 1.1
+      second: 0.43
     - first:
         name: _FlowShininess
       second: 0.078125
