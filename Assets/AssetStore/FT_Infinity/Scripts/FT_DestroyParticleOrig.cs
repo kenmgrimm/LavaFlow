@@ -6,7 +6,7 @@ public class FT_DestroyParticle : MonoBehaviour {
 
 	private float timeBeforeStart = 0f;
 	private float waitBetweenPlays = 0f;
-	public float timeBetweenRounds = 1f;
+	public float timeBetweenRounds = 0.5f;
 
 	private ParticleSystem rootParticle;
 
