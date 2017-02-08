@@ -6,7 +6,7 @@ public class FT_DestroyParticle02 : MonoBehaviour {
 	public float destroyTime = 10.0f;
 
 	void Start () {
-		Destroy(gameObject, destroyTime);	
+		// Destroy(gameObject, destroyTime);	
 	}
 	
 

@@ -1,20 +1,37 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
 public class FT_DestroyParticle : MonoBehaviour {
+	private float duration;
 
-	private float destroyTime = 10.0f;
+	private float timeBeforeStart = 0f;
+	private float waitBetweenPlays = 0f;
+	public float timeBetweenRounds = 1f;
+
 	private ParticleSystem rootParticle;
 
 
 	void Start () {		
 		rootParticle = transform.FindChild ("root").gameObject.GetComponent<ParticleSystem>();
-		destroyTime = rootParticle.duration;
-		Destroy(gameObject, destroyTime);	
+		duration = rootParticle.main.duration;
+
+		timeBeforeStart = this.transform.GetSiblingIndex() * duration;
+		waitBetweenPlays = (this.transform.parent.childCount) * duration + timeBetweenRounds;
+
+		Debug.Log(duration + ", " + timeBeforeStart + ", " + waitBetweenPlays);
+		rootParticle.gameObject.SetActive(false);
+
+		StartCoroutine("Play");
 	}
 	
+	IEnumerator Play() {
+		yield return new WaitForSeconds(timeBeforeStart);
 
-	void Update () {
-	
+		while(true) {
+			rootParticle.gameObject.SetActive(true);
+			rootParticle.Play(withChildren: true);
+
+			yield return new WaitForSeconds(waitBetweenPlays);
+		}
 	}
 }

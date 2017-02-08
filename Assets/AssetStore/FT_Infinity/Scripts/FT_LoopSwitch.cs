@@ -1,30 +1,30 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
 public class FT_LoopSwitch : MonoBehaviour {
+	public float duration = 2f;
+	private float timeBetweenPlays = 1f;
 
-	public float loopOffTiming = 0;
-
-	private ParticleSystem[] particleSystems;
+	private ParticleSystem particleSystemRoot;
 
 	private float currentTime = 0;
 
-
-
 	void Start () {
-		particleSystems = GetComponentsInChildren<ParticleSystem>();
+		particleSystemRoot = transform.FindChild ("root").gameObject.GetComponent<ParticleSystem>();
+
+		StartCoroutine("Play");
 	}
 	
 
-	void Update () {
-		if (loopOffTiming != 0) {
-			currentTime += Time.deltaTime;
-		
-			if (currentTime > loopOffTiming) {
-				foreach (ParticleSystem particles in particleSystems)
-					particles.loop = false;
-			}
+	IEnumerator Play() {
+		while(true) {
+			particleSystemRoot.Play(withChildren: true);
+
+			yield return new WaitForSeconds(duration);
+
+			particleSystemRoot.Stop(withChildren: true);
+
+			yield return new WaitForSeconds(timeBetweenPlays);
 		}
-			
 	}
 }
