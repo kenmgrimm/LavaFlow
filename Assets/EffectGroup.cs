@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class EffectGroup : MonoBehaviour {
   public List<GameObject> effects;
+  private bool activeGroup = false;
 	private int currentIndex = 0;
 	
 	public void Start() {
@@ -17,13 +18,14 @@ public class EffectGroup : MonoBehaviour {
 	public void OnChangePlay(bool start) {
 		Debug.Log("OnChangePlay: " + start);
 
+		activeGroup = start;
 		CurrentEvent().SetActive(start);
 	}
 	
 	public void OnAdvanceEffect(int count) {
 		Debug.Log("OnAdvanceEffect: " + count);
 		
-		if(!CurrentEvent().activeSelf) {
+		if(!activeGroup) {
 			return;
 		}
 

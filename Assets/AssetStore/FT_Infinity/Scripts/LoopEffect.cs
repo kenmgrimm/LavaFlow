@@ -19,6 +19,7 @@ public class LoopEffect : MonoBehaviour {
 
 	IEnumerator Play() {
 		while(true) {
+		Debug.Log("LoopEffect.Play(): " + gameObject.name);
 			particleSystemRoot.Play(withChildren: true);
 
 			yield return new WaitForSeconds(duration);
