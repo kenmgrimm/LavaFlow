@@ -23,11 +23,13 @@ public class EffectGroup : MonoBehaviour {
 
 		// Todo - this is just to prevent anyone but the active group from acting on UI events :(
 		activeGroup = start;
+		
+		if(runningEvent) {
+			runningEvent.SetActive(false);
+		}
+
 		if (start) {
 			runningEvent = CreateCurrentEvent();
-		}
-		else {
-			runningEvent.SetActive(false);
 		}
 	}
 	
