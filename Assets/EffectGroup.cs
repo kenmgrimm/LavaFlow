@@ -5,6 +5,7 @@ public class EffectGroup : MonoBehaviour {
   public List<GameObject> effects;
   private bool activeGroup = false;
 	private int currentIndex = 0;
+	private GameObject runningEvent;
 	
 	public void Start() {
 		if(effects == null || effects.Count == 0) {
@@ -18,8 +19,16 @@ public class EffectGroup : MonoBehaviour {
 	public void OnChangePlay(bool start) {
 		Debug.Log("OnChangePlay: " + start);
 
+
+
+		// Todo - this is just to prevent anyone but the active group from acting on UI events :(
 		activeGroup = start;
-		CurrentEvent().SetActive(start);
+		if (start) {
+			runningEvent = CreateCurrentEvent();
+		}
+		else {
+			runningEvent.SetActive(false);
+		}
 	}
 	
 	public void OnAdvanceEffect(int count) {
@@ -29,7 +38,7 @@ public class EffectGroup : MonoBehaviour {
 			return;
 		}
 
-		CurrentEvent().SetActive(false);
+		Destroy(runningEvent);
 		
 		currentIndex += count;
 		
@@ -40,9 +49,17 @@ public class EffectGroup : MonoBehaviour {
 			currentIndex = 0;
 		}
 		
-		CurrentEvent().SetActive(true);
+		runningEvent = CreateCurrentEvent();
 	}
 	
+	private GameObject CreateCurrentEvent() {
+		var currentEvent = Instantiate(CurrentEvent());
+		currentEvent.transform.position = CurrentEvent().transform.position;
+		currentEvent.SetActive(true);
+
+		return currentEvent;
+	}
+
 	private GameObject CurrentEvent() {
 		return effects[currentIndex];
 	}
