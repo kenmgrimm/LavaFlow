@@ -170,7 +170,7 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.6836158
+      - time: 0.6508572
         functionName: Spit
         data: 
         objectReferenceParameter: {instanceID: 0}
