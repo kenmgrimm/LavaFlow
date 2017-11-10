@@ -10,7 +10,7 @@ public class FT_LoopSwitch : MonoBehaviour {
 	private float currentTime = 0;
 
 	void Start () {
-		particleSystemRoot = transform.FindChild ("root").gameObject.GetComponent<ParticleSystem>();
+		particleSystemRoot = transform.Find ("root").gameObject.GetComponent<ParticleSystem>();
 
 		StartCoroutine("Play");
 	}

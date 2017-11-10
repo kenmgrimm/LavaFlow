@@ -10,7 +10,7 @@ public class LoopEffect : MonoBehaviour {
 	private float currentTime = 0;
 
 	void Start () {
-		particleSystemRoot = transform.FindChild ("root").gameObject.GetComponent<ParticleSystem>();
+		particleSystemRoot = transform.Find ("root").gameObject.GetComponent<ParticleSystem>();
 		duration = particleSystemRoot.main.duration;
 
 		StartCoroutine("Play");

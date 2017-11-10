@@ -12,7 +12,7 @@ public class FT_DestroyParticle : MonoBehaviour {
 
 
 	void Start () {		
-		rootParticle = transform.FindChild ("root").gameObject.GetComponent<ParticleSystem>();
+		rootParticle = transform.Find ("root").gameObject.GetComponent<ParticleSystem>();
 		duration = rootParticle.main.duration;
 
 		timeBeforeStart = this.transform.GetSiblingIndex() * duration;

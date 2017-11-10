@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // - no Specular Color 
 // - specular lighting directions are approximated per vertex
 // - Normalmap uses Tiling/Offset of the Base texture
@@ -63,7 +65,7 @@ Properties {
 		{
 			o = (Input)0;
 
-			half4 vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+			half4 vertex = UnityObjectToClipPos(v.vertex);
 
 			#if UNITY_UV_STARTS_AT_TOP
 			float scale = -1.0;

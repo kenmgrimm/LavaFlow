@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 #warning Upgrade NOTE: unity_Scale shader variable was removed; replaced 'unity_Scale.w' with '1.0'
 
 Shader "VacuumShaders/Flow/No_Base/Flow_Refractive" {
@@ -64,7 +66,7 @@ Shader "VacuumShaders/Flow/No_Base/Flow_Refractive" {
 		{
 			o = (Input)0;
 
-			half4 vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+			half4 vertex = UnityObjectToClipPos(v.vertex);
 
 			#if UNITY_UV_STARTS_AT_TOP
 			float scale = -1.0;

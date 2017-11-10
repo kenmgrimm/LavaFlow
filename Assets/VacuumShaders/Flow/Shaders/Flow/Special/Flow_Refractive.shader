@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "VacuumShaders/Flow/Special/Flow_Refractive" {
 Properties {
 		_SpecColor ("Flow Specular Color", Color) = (0.5, 0.5, 0.5, 1)
@@ -54,7 +56,7 @@ Properties {
 		{
 			o = (Input)0;
 
-			half4 vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+			half4 vertex = UnityObjectToClipPos(v.vertex);
 
 			#if UNITY_UV_STARTS_AT_TOP
 			float scale = -1.0;

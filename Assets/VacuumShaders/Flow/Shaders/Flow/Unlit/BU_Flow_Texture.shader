@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 Shader "VacuumShaders/Flow/Unlit/Flow_Texture" {
 	Properties {
 		_MainColor("Main Color", Color) = (1, 1, 1, 1)
@@ -33,7 +35,7 @@ Shader "VacuumShaders/Flow/Unlit/Flow_Texture" {
 			
 				v2f vert(appdata_base v) {
 					v2f o;
-					o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+					o.pos = UnityObjectToClipPos(v.vertex);
 					o.uv[0] = TRANSFORM_TEX(v.texcoord, _MainTex);
 					o.uv[1] = TRANSFORM_TEX(v.texcoord, _FlowTexture);
 					o.uv[2] = TRANSFORM_TEX(v.texcoord, _FlowMap);
